@@ -19,6 +19,28 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+body{
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  60% {
+    opacity: 0.5;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -30,4 +52,51 @@
 body {
   font-family: "DM Sans", sans-serif;
   color: #030637;
+}
+
+/* Project page cover style */
+
+
+/* Side Tabs CSS */
+.side-tabs{
+  display: block;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+.side-tab-element{
+  padding: 3px 0px;  
+}
+.side-tab-element:hover{
+  color: #0B097C;
+}
+
+/* Tab content css */
+.project-section{
+  padding: 10px 0px;
+  overflow: auto;
+}
+
+.project-section-heading{
+  font-family: 'Yeseva One', serif;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.project-section-image{
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 768px){
+  .project-section{
+    padding: 4px 0px;
+  }
+  .side-tabs{
+    display: none;
+  }
+  .project-section-heading{
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
 }
