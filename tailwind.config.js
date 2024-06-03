@@ -19,6 +19,7 @@ module.exports = {
         100: '#910A67',
         500: '#720455',
       },
+      'atlassian': '#0052CC',
       'darkFont': '#3C1002',
       gray: colors.gray,
       white: colors.white,

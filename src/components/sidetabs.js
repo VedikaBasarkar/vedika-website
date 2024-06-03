@@ -4,7 +4,18 @@ function SideTabs() {
   return (
     <div>
         <div className='flex flex-row'>
-
+        {/* atlassian side tabs */}
+          {/* <div className='none md:block w-1/4 font-semibold side-tabs'>
+            <div className='text-gray-400 my-4 font-normal'>Process</div>
+            <div className='side-tab-element'><a href='#intro'>Introduction</a></div>
+            <div className='side-tab-element'><a href='#role'>Role and Responsibility</a></div>
+            <div className='side-tab-element'><a href='#intro'>Introduction</a></div>
+            <div className='side-tab-element'><a href='#role'>Role and Responsibility</a></div>
+            <div className='side-tab-element'><a href='#intro'>Introduction</a></div>
+            <div className='side-tab-element'><a href='#role'>Role and Responsibility</a></div>
+            <div className='side-tab-element'><a href='#intro'>Introduction</a></div>
+            <div className='side-tab-element'><a href='#role'>Role and Responsibility</a></div>
+          </div> */}
           {/* side tabs */}
           <div className='none md:block w-1/4 font-semibold'>
             <div className='text-gray-400 mb-4'>Process</div>

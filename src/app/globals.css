@@ -20,6 +20,8 @@
 }
 
 body{
+  font-family: "DM Sans", sans-serif;
+  color: #030637;
   animation: fadeInAnimation ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -49,9 +51,9 @@ html{
   }
 }
 
-body {
-  font-family: "DM Sans", sans-serif;
-  color: #030637;
+p{
+  font-weight: 300;
+  font-size: 18px;
 }
 
 /* Project page cover style */
@@ -74,14 +76,27 @@ body {
 
 /* Tab content css */
 .project-section{
-  padding: 10px 0px;
+  padding: 15vh 0;
   overflow: auto;
 }
-
 .project-section-heading{
   font-family: 'Yeseva One', serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.project-section-subheading{
+  font-family: 'DM sans', sans-serif;
+  font-weight: 700;
   font-size: 24px;
   margin-bottom: 8px;
+}
+
+.project-section-small-heading{
+  font-family: 'DM sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .project-section-image{
@@ -89,15 +104,27 @@ body {
 }
 
 @media screen and (max-width: 768px){
+  p{
+    font-size: 16px;
+  }
   .project-section{
-    padding: 4px 0px;
+    padding: 20px 0px;
   }
   .side-tabs{
     display: none;
   }
   .project-section-heading{
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 4px;
+  }
+  .project-section-subheading{
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  .project-section-small-heading{
+    font-family: 'DM sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
   }
 }
 
