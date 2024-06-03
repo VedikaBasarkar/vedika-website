@@ -10,8 +10,10 @@ module.exports = {
     colors: {
       'primary': {
         200: '#3C0753',
-        400:'#0B097C',
+        400: '#0B097C',
         500: '#030637',
+        700: '#020317',
+        900: '#000112'
       },
       'secondary': {
         100: '#910A67',
@@ -21,6 +23,8 @@ module.exports = {
       gray: colors.gray,
       white: colors.white,
       red: colors.red,
+      cyan: colors.cyan,
+      pink: colors.pink
     },
     borderRadius: {
       'none': '0',
