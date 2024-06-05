@@ -3,7 +3,7 @@ import '../../app/globals.css'
 
 const JNEC = () => {
   return (
-    <div classNameName='flex flex-col'>
+    <div className='flex flex-col px-6 md:px-28 lg:px-40'>
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381061/website/jnec/a1_jynfak.jpg" />
             <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381062/website/jnec/a2_zspxyh.jpg" />
             <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662983725/website/jnec/J3_lxvzpq.jpg" />
@@ -28,7 +28,8 @@ const JNEC = () => {
               <a className="font-poppins redirectLink text-xl justify-center" href="https://jnec-website.ortigan.dev/" target="_blank">New Website Link</a>
             </div>
             <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381065/website/jnec/a15_bi4mko.jpg" />
-            <a className="font-poppins text-2xl my-20" href="/">&#60;&#60; Back to home page</a>
+            
+      <div className='my-20'><a className="text-xl my-20" href="/">&#60;&#60; Back to home page</a></div>
     </div>
   )
 }

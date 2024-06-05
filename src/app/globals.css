@@ -151,7 +151,7 @@ p{
   100% { transform: translateX(-100%); }
 }
 
-a:hover {
+.link:hover {
   -webkit-transform: translateX(10px);
           transform: translateX(10px);
 }

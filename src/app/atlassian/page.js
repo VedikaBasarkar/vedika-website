@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../app/globals.css'  
-import SideTabs from '@/components/sidetabs'
 
 function Atlassian() {
   return (
@@ -24,7 +23,7 @@ function Atlassian() {
                   <div className='project-section-small-heading'>Date<br /><span className='text-atlassian'>May 2023 - July 2023</span> </div>
                 </div>
                 <div className='w-full md:w-2/3 md:pl-4'>
-                  <p>I got am opportunity to work at <span className='text-atlassian font-semibold'>Atlassian</span>, as a <span className='text-atlassian font-semibold'>Product Design Intern</span>. internship was of 8 weeks (2 months) internship.</p>
+                  <p>I got an opportunity to work at <span className='text-atlassian font-semibold'>Atlassian</span>, as a <span className='text-atlassian font-semibold'>Product Design Intern</span>. internship was of 8 weeks (2 months) internship.</p>
                   <p className='mb-5'>I was assigned to <span className='text-atlassian font-semibold'>Enterprise Data Center Design Team (Australia)</span> Ent journey to cloud in design - Enterprise Department and worked on product named <span className='text-atlassian font-semibold'>BITBUCKET</span>.</p>
                   <p className='mb-5'>During this internship, <br/>
                   <span className='text-atlassian font-semibold'>Vincent Feeney</span> (Design manager) was manager <br />
@@ -102,7 +101,20 @@ function Atlassian() {
                 <div className='project-section-subheading'>Understanding the token's <span className='text-atlassian'>naming conventions, values and light & dark hex color values</span></div>
               </div>
               <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+                <p className='mb-5'>In documentation, <span className='text-atlassian font-semibold'>different states</span> of different components like links, buttons, etc. were <span className='text-atlassian font-semibold'>covered and had separate tokens</span> assigned.</p>
+                <p className='mb-5'>Some hex values of tokens came with the <span className='text-atlassian font-semibold'>transparency</span> and some had actual color code value. I had to take care of this transaparency parameter as, <span className='text-atlassian font-semibold'>color does get affected by the background color</span>.</p>
                 <p className='mb-5'>One important that was affect while assigning the tokens to dark theme, <span className='text-atlassian font-semibold'>All tokens do affect light mode as well</span>. So It is important to choose appropriate tokens by taking care of both, light and dark modes</p>
+              </div>
+            </div>
+
+            <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-subheading'>Performing <span className='text-atlassian'>AA, AAA tests</span></div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+                <p className='mb-5'>There are some WCAG (Web Content Accessibility Guidelines) set of guidelines created by the World Wide Web Consortium (W3C) that we followed during the product design. These outlines how to make web content more accessible to people with disabilities.</p>
+                <p className='mb-5'>I performed these <span className='text-atlassian font-semibold'>AA and AAA tests</span> for all components using figma plugins.</p>
+                <p className='mb-5'>Level A is the minimum level of conformance, while level AAA is the highest level of conformance. These guidelines for color contrast fall under level AA conformance, which means that they are essential for ensuring accessibility</p>
               </div>
             </div>
           </div>
@@ -187,17 +199,143 @@ function Atlassian() {
             </div>
           </div>
 
+          {/* Crit session */}
+          <div className='project-section'>
+            <div className='project-section-heading'>Critique session with DC team</div>
+            <div className='flex flex-row flex-wrap'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-subheading'><span className='text-atlassian'>Critque session</span></div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+                <p className='mb-5'>One interesting thing happened with me. My manager gave me chance to present my designs in critique session called <span className='text-atlassian font-semibold'>The ACDC (A Crit for Data Center)</span>.</p>
+                <p className='mb-5'>In 5th week of my internship, I got chance to present design in front of the entire Ent-DC-Design team. I brought 2 components to design critique session, Left hand sidesheet and right hand sidesheet</p>
+                <img className='mb-5' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717559678/vedika-website/atlassian/crit-session-components_nqerq1.png' />
+                <p className='mb-5'>Issue with these components was, colors used were not consistent across Atlassian’s products, like Jira, Confluence, etc. I came up with some combinations which can be used throughout Atlassian Suite. So brought these designs to get inputs and critique from other designers.</p>
+                <p className='mb-5'>I conducted this crit session on Figma where team was welcomed to give feedback through comments sections. They had total 15 mins to observe the designs and write feedback.</p>
+              </div>
+            </div>
+            <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-subheading'><span className='text-atlassian'>Feedbacks</span> from the session</div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+                <img className='mb-5' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717566537/vedika-website/atlassian/Layer_1_rj4ngv.png' />
+                <p className='mb-5'>Got some feedbacks, inputs and some opinions. This actually opened all possible perspectives, which was helpful to make checklist of what final designs should have.</p>
+                <p className='mb-5'>Above image shows some of all feedbacks. I was able to catagories these all comments. </p>
+              </div>
+            </div>
+            <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-subheading'>Finalizing <span className='text-atlassian'>design</span></div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+                <p className='mb-5'>I categorised all inputs into sections. With the help of mentor, I went back to design decision making documentation, which was made by core design team. Also I went to slack channel where all queries regarding these tokens were discussed.</p>
+                <p className='mb-5'>I got references and I went through documents. With the help of all feedbacks, documentation, and mentor's guidance, the designs were finalized. I documented all design decisions which I made and sent to core design team. It will impact component across all products but It's now uniform across all Atlassian</p>
+                <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1717587760/vedika-website/atlassian/finalised-design_ildcjg.png"/>
+              </div>
+            </div>
+          </div>
+
+          {/* User interviews */}
+          <div className='project-section'>
+            <div className='project-section-heading'>User Interview</div>
+            <div className='flex flex-row flex-wrap'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-subheading'><span className='text-atlassian'>Shadowing</span> designer and being <span className='text-atlassian'>silent observer</span></div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+                <p className='mb-5'>During second last week of internship, I worked with 2 senior designers for user interview. They found users and scheduled online interview with them. </p>
+                <p className='mb-5'>This was <span className='text-atlassian font-semibold'>user testing for dark mode</span> of product as well as <span className='text-atlassian font-semibold'>to understand the gaps or issues</span> if any. I was part of one of the interviews as silent observer. Before going into user interviews, we defined <span className='text-atlassian font-semibold'>a task, an activity and prepared list of questions</span>. </p>
+              </div>
+            </div>
+            <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-subheading'>Insights and <span className='text-atlassian'>affinity mapping</span></div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+                <p className='mb-5'>Being part of user interview, as a Silent observer, I noted down all observations in format of <span className='text-atlassian font-semibold'>empathy map</span>. I needed to catagories actions, what user says, thinks and feels.</p>
+                <p className='mb-5'>Along with me, other two senior designers also noted points and we gathered them up in one FigJam file. After that we started, to <span className='text-atlassian font-semibold'>categories and completed affinity mapping</span>. </p>
+                <p className='mb-5'>Then we used <span className='text-atlassian font-semibold'>Imapct-efforts Matrix and MoSCoW analysis </span>to define priorities of new features, functionality or tasks.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Challenges */}
+          <div className='project-section'>
+            <div className='project-section-heading'>Challenges</div>
+            <div className='flex flex-row flex-wrap'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-subheading'>Confusion with<span className='text-atlassian'> tokens</span></div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+                <p className='mb-5'>In the beiginning, confusion between AUI token and DS tokens was creating problems. In the starting I did not used appropriate tokens but color wise those were proper. Mentor Rhys helped me with clarifying this confusion.</p>
+              </div>
+            </div>
+            <div className='flex flex-row flex-wrap'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-subheading'><span className='text-atlassian'>Technical</span> issues with new variables</div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+                <p className='mb-5'>I found one issue with DS variable mapping on AUI variables. From inspect element, I found issue with color variables not being right as mentioned in confluence document and Atlassian's figma plugin</p>
+                <img className='mb-5' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1717587930/vedika-website/atlassian/token-mapping-issue_a7tvjm.png" />
+                <p className='mb-5'>With the help of engineer Carlos, we addressed and resolved this issue of mapping variables.</p>
+              </div>
+            </div>
+            <div className='flex flex-row flex-wrap'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-subheading'><span className='text-atlassian'>Leaving behind biases</span> for user interviews</div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+                <p className='mb-5'>I was a developer so I understand the product and how it should be used. And in my opinion, this was my biggest bias. Forming questions or designing an activity were getting hampered cause of my biases. Mentor and senior designers helped me to get through this problem. They opened perspective to how to look at things. Considering any user as novice in using product and then framing questions can help. Also step by step we can update questions' experty level, that way we can get answers we were looking for.</p>
+              </div>
+            </div>
+            <div className='flex flex-row flex-wrap'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-subheading'>Challenges for my <span className='text-atlassian'>designer colleagues</span> </div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+                <p className='mb-5'>My little technical background and knowledge helped other designers to understan and expolre how inspect element can be used for design purpose. I walked them through some tricks with colors, psuedo element, etc </p>
+                <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1717589809/vedika-website/atlassian/inspect-element_zgqxem.png" />
+              </div>
+            </div>
+          </div>
+
+          {/* Learnings */}
+          <div className='project-section'>
+            <div className='project-section-heading'>Learnings and Key Takeaways</div>
+            <div className='flex flex-row flex-wrap'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-subheading'>About<span className='text-atlassian'> Atlassian</span></div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4'>
+                <p className='mb-5 font-semibold'>• Learnt five values of Atlassian.</p>
+                <p className='mb-5 font-semibold'>• Learnt about different products of Atlassian, their purpose and how it's interconnected.</p>
+                <p className='mb-5 font-semibold'>• Atlassian's work culture, communities and heirarchy</p>
+                <p className='mb-5 font-semibold'>• Design Hub, Design principle, AUI and DS tokens, Atlassian Design System</p>
+              </div>
+            </div>
+            <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-subheading'>Thoughtful<span className='text-atlassian'> Takeaways</span></div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+                <p className='mb-5 font-semibold'>• Each designer has their own method of working.</p>
+                <p className='mb-5 font-semibold'>• Play as a team - collaboration with not only designers but engineers can help us succeed.</p>
+                <p className='mb-5 font-semibold'>• No input or feedback is wrong, you have to decide what would you like to take along.</p>
+                <p className='mb-5 font-semibold'>• Some features need content first approach and some features need functionality first approach.</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Thanks to support system */}
+          <div className='project-section flex flex-col w-full'>
+            <div className='project-section-heading text-center'>Thanks to my <span className='text-atlassian'>support system</span> </div>
+            <img className="px-4 md:px-40" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1717587113/vedika-website/atlassian/support-system_bynrsc.png" />
+          </div>
+
       </div>
 
-      <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1716211272/vedika-website/atlassian/Slide_16_9_-_49_yz8qzo.jpg" />
-      <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1716211274/vedika-website/atlassian/Slide_16_9_-_50_s9srqt.jpg" />
-      <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1716211275/vedika-website/atlassian/Slide_16_9_-_51_slb1sg.jpg" />
-      <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1716211274/vedika-website/atlassian/Slide_16_9_-_53_zwo9xu.jpg" />
-      <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1716211277/vedika-website/atlassian/Slide_16_9_-_54_ndei2q.jpg" />
-      <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1716212059/vedika-website/atlassian/key_learnings_qjgune.jpg" />
-      <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1716211295/vedika-website/atlassian/Slide_16_9_-_61_xazp2t.jpg" />
-      <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1716211295/vedika-website/atlassian/Slide_16_9_-_62_zystk2.jpg" />
-      <a className="text-xl my-20" href="/">&#60;&#60; Back to home page</a>
+      <div className='my-20'><a className="text-xl my-20" href="/">&#60;&#60; Back to home page</a></div>
     </div>
   )
 }

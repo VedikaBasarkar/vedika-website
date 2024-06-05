@@ -18,9 +18,9 @@ const About = () => {
             <img className="w-full md:w-1/2 rounded-md " src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717390167/vedika-website/profile-photo/IMG_3905_qswdbv.jpg' />
             <div data-aos="fade-down" className='md:w-1/2 flex flex-col justify-center'>
                 <div className="font-yeseva lg:text-8xl text-2xl md:-ml-20 pt-4">Hello, <br />I'm <span className=''>Vedika</span></div>
-                <div className='font-bold text-lg lg:text-2xl py-2 md:py-6 md:pl-20'>I am an Indian Designer and Developer. <br/>
-                    Yes, You read it write, <br/>I am a <span className='text-cyan-600'>Computer Science Engineer</span> <br/>and now I am a full time <span className='text-cyan-600'>UI UX designer</span>. <br/>
-                    I am available for a full time role. </div>
+                <div className='font-bold text-lg lg:text-2xl py-2 md:py-6 md:pl-20'>I'm a Indian Designer and Developer <br/>
+                    Design to development, I cover whole UI part.<br/>I'm a <span className='text-cyan-600'>Computer Science Engineer</span> <br/>and now a full time <span className='text-cyan-600'>UI UX designer</span>. <br/>
+                    Currently available for a full time role. </div>
             </div>
         </div>
         <div></div>
@@ -63,7 +63,7 @@ const About = () => {
                     </div>
                     {/* Ortigan Technologies */}
                     <div className='flex flex-row mt-10'>
-                        <img className='bg-gray-100 px-4 py-4 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717163449/vedika-website/icons/ortigan_yn5yvq.svg' />
+                        <img className='bg-gray-100 px-4 py-4 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717163449/vedika-website/icons/ortigan_nav_bar_logo_left_kkv2u4_chn30i.svg' />
                         <div className='pl-6'>
                             <div className="font-yeseva text-2xl lg:pb-2">Ortigan Technologies</div>
                             <div className="font-medium">UI Designer and Developer
@@ -86,7 +86,7 @@ const About = () => {
                 <div className='flex flex-row lg:flex-col lg:w-1/2 border-l border-l-gray-500 pl-10 border-dashed'>
                     {/* Vitwit Technologies */}
                     <div className='flex flex-row'>
-                        <img className='bg-gray-100 px-4 py-4 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717164635/vedika-website/icons/vitwit-logo_h7ifcj.svg' />
+                        <img className='bg-gray-100 px-4 py-7 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717590867/vedika-website/icons/vitwit-dark-icon_hmscjf.png' />
                         <div className='pl-6'>
                             <div className="font-yeseva text-2xl lg:pb-2">Vitwit</div>
                             <div className="font-medium">UI Designer and Developer
@@ -110,7 +110,7 @@ const About = () => {
                     </div>
                     {/* IoT Research Labs */}
                     <div className='flex flex-row mt-10'>
-                        <img className='bg-gray-100 px-4 py-4 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717164635/vedika-website/icons/vitwit-logo_h7ifcj.svg' />
+                        <img className='bg-gray-100 px-4 py-5 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717566046/vedika-website/icons/iotrl-dark-log_copy_ekirb5.jpg' />
                         <div className='pl-6'>
                             <div className="font-yeseva text-2xl lg:pb-2">IoT Research Labs</div>
                             <div className="font-medium">Frontend Developer
@@ -131,7 +131,8 @@ const About = () => {
         </div>
 
         <div className='mt-20'>
-            <div className='text-center'>What I  <span className='text-red-800'>Love</span></div>
+            <div className='text-center font-yeseva text-2xl mb-4'>My Favourites</div>
+            <hr />
             <marquee className='my-6 font-bold text-xl' loop="-1" direction='left' play="true" speed={50} delay={0}>
                 <span className='p-8'>Simple UI</span>
                 <span className='p-8'>Chess</span>
@@ -147,6 +148,7 @@ const About = () => {
                 <span className='p-8'>French Fries</span>
                 <span className='p-8'>Embroidery</span>
             </marquee>
+            <hr />
         </div>
     </div>
   )

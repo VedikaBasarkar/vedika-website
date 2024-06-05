@@ -40,7 +40,7 @@ const ProjectList = () => {
         {Projects.map(item => (
             <div key={item.id} className=''>
                 <a href={item.url}>
-                <div class="h-min overflow-hidden rounded-md shadow-xl hover:shadow-sm">
+                <div className="h-min overflow-hidden rounded-md shadow-xl hover:shadow-sm">
                     <img className=" hover:scale-110 transition-all duration-500" src={item.img} />
                 </div>
                 <div className='flex flex-row justify-between pt-4'>
