@@ -44,7 +44,7 @@ const ProjectList = () => {
                     <img className=" hover:scale-110 transition-all duration-500" src={item.img} />
                 </div>
                 <div className='flex flex-row justify-between pt-4'>
-                    <div className='text-secondary-500 text-md tracking-wider font-medium'>{item.catagory}</div>
+                    <div className='text-cyan-600 text-md tracking-wider font-medium'>{item.catagory}</div>
                     <div className='text-gray-400'>{item.date}</div>
                 </div>
                 <div className='text-2xl font-semibold'>{item.name}</div>
