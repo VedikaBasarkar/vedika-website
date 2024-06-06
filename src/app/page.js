@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import "./globals.css";
+import '@animxyz/core'
 import Cover from '@/components/cover';
 import ProjectList from '@/components/projectList';
 import AOS from "aos";

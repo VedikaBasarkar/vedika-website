@@ -15,6 +15,11 @@ const Footer = () => {
         <a href="mailto:vedika.basarkar30@gmail.com" target='_blank'><img className="h-14 hover:-translate-y-1" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717590165/vedika-website/icons/cib_gmail_b5rf6d.svg' /></a>
         <a href="https://drive.google.com/file/d/17hPQoa3uzykHMAh-Tan5sFsk-0R3gHnN/view?usp=sharing" target='_blank'><img className="h-14 hover:-translate-y-1" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717590189/vedika-website/icons/heroicons-outline_document-download_xz74df.svg' /></a>
       </div>
+      <div className='w-40 h-40'>
+        {/* <video autoPlay controls muted loop>
+        <source src="https://res.cloudinary.com/db3h7h0pa/video/upload/v1717647264/vedika-website/EmojiMovie739337940_npkyck.mov" type="video/mov"/>
+        </video> */}
+      </div>
     </div>
   )
 }

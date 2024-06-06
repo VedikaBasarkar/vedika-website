@@ -30,29 +30,48 @@ const Projects = [
         "date":"Jan 2022",
         "one-line":"Lorem ipsum dolor, aem Lorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajs",
         "url":'/jnec'
-    },
+    },{
+      "id": 4,
+      "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381061/website/jnec/a1_jynfak.jpg",
+     "name":"Photography compilation",
+      "catagory":"photography",
+      "date":" ",
+      "one-line":"Lorem ipsum dolor, aem Lorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajs",
+      "url":'/photography'
+  },
   ]; 
 
 const ProjectList = () => {
 
   return (
-    <div className="px-4 md:px-36 w-full grid md:grid-cols-2 gap-20">
-        {Projects.map(item => (
-            <div key={item.id} className=''>
-                <a href={item.url}>
-                <div className="h-min overflow-hidden rounded-md shadow-xl hover:shadow-sm">
-                    <img className=" hover:scale-110 transition-all duration-500" src={item.img} />
-                </div>
-                <div className='flex flex-row justify-between pt-4'>
-                    <div className='text-cyan-600 text-md tracking-wider font-medium'>{item.catagory}</div>
-                    <div className='text-gray-400'>{item.date}</div>
-                </div>
-                <div className='text-2xl font-semibold'>{item.name}</div>
-                {/* <div>{item['one-line']}</div> */}
-                </a>
-            </div>
-        ))
-        }
+    <div>
+      <div className="px-4 md:px-36 w-full grid md:grid-cols-2 gap-20">
+          {Projects.map(item => (
+              <div key={item.id} className=''>
+                  <a href={item.url}>
+                  <div className="h-min overflow-hidden rounded-md shadow-xl hover:shadow-sm">
+                      <img className=" hover:scale-110 transition-all duration-500" src={item.img} />
+                  </div>
+                  <div className='flex flex-row justify-between pt-4'>
+                      <div className='text-cyan-600 text-md tracking-wider font-medium'>{item.catagory}</div>
+                      <div className='text-gray-400'>{item.date}</div>
+                  </div>
+                  <div className='text-2xl font-semibold'>{item.name}</div>
+                  {/* <div>{item['one-line']}</div> */}
+                  </a>
+              </div>
+          ))
+          }
+      </div>
+
+      {/* <div className='flex flex-row flex-wrap w-full'>
+      {Projects.map(item => (
+        <div className='w-1/2'>
+          <img src={item.img} />
+        </div>
+      ))
+
+      }</div> */}
     </div>
   );
 };

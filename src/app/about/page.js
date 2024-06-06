@@ -2,11 +2,30 @@
 
 import React, { useEffect } from 'react'
 import '../../app/globals.css'  
-import Marquee from "react-fast-marquee";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ReviewsCarousel from '@/components/reviews-carousel';
 
-
+const recommendationList = [
+    {
+        "id": 1,
+        "name":"RHYS HOBBS",
+        "profile":"Senior Product Designer at Atlassian",
+        "recommendation": "<div>Vedika worked with the Data Center team during our most important project rollout - a complete refresh of our UI design across our product suite.<br />Within a few days of starting, Vedika had hit the ground running - she redesigned a key side nan component and had future-proofed it via accessibility improvements (it now meets WCAG AA), ensured it was consistent across the Atlassian suite, and resolved longstanding usability issues. As an icing on the cake, she also found time to upskill the team with her frontend tech knowledge. All of this over a short period with the team.<br />Vedika's a triple-threat designer - she has a strong foundation in development, she's highly motivated and hard-working, and she has a keen eye for design.<br />I highly recommend Vedika. Any team that works with her will not only reap the rewards of her skills and knowledge but will also grow the team's capabilities.</div>" ,
+    },
+    {
+        "id": 2,
+        "name":"VINCENT FEENEY",
+        "profile":"Senior Product Designer at Atlassian",
+        "recommendation":"<div>Vedika came to work on our team as an intern and had an immediate impact, contributing to our work in building Dark Theme for our biggest Enterprise customers. Her engineering background meant she was able to bridge the gap between design and development teams. She had a growth mindset, and was a frequent sharer in our critique sessions, always looking to learn from those around her. Vedika has a unique skillset and I'd strongly recommend her for a UX role.</div>",
+    },
+    {
+        "id": 3,
+        "name":"PARAG CHIRDE",
+        "profile":"Senior Product Designer at Atlassian",
+        "recommendation":"<div>I had the pleasure of working closely with Vedika at our startup, where she demonstrated exceptional talent, dedication, and professionalism.<br \/> As a UI/UX designer, Vedika\'s creative vision and attention to detail were truly impressive. She consistently produced designs that were not only visually stunning but also intuitive and user-friendly. In addition to her design skills, Vedika excelled as a frontend developer.<br\/>Furthermore, Vedika is a pleasure to work with. She is a great communicator, collaborator, and problem-solver. Her positive attitude and willingness to go the extra mile make her an invaluable asset to any team.<br \/>In summary, I recommend Vedika highly. Her exceptional work ethic, combined with her talent and expertise, make her an outstanding candidate for any UI/UX design or frontend development role.</div>",
+    },
+  ]; 
 const About = () => {
     useEffect(() => {
         AOS.init();
@@ -16,7 +35,7 @@ const About = () => {
     <div className=''>
         <div className='flex flex-col md:flex-row px-4 md:px-20'>
             <img className="w-full md:w-1/2 rounded-md " src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717390167/vedika-website/profile-photo/IMG_3905_qswdbv.jpg' />
-            <div data-aos="fade-down" className='md:w-1/2 flex flex-col justify-center'>
+            <div className='md:w-1/2 flex flex-col justify-center'>
                 <div className="font-yeseva lg:text-8xl text-2xl md:-ml-20 pt-4">Hello, <br />I'm <span className=''>Vedika</span></div>
                 <div className='font-bold text-lg lg:text-2xl py-2 md:py-6 md:pl-20'>I'm a Indian Designer and Developer <br/>
                     Design to development, I cover whole UI part.<br/>I'm a <span className='text-cyan-600'>Computer Science Engineer</span> <br/>and now a full time <span className='text-cyan-600'>UI UX designer</span>. <br/>
@@ -24,7 +43,7 @@ const About = () => {
             </div>
         </div>
         <div></div>
-        <div data-aos="fade-down" className="px-6 lg:px-40">
+        <div className="px-6 lg:px-40">
             <div className="font-yeseva text-2xl lg:text-4xl py-6 lg:pb-6 lg:pt-20">Vedika Basarkar (Kapatral)</div>
             <div className="pb-4">
                 I’m an experienced UI UX Designer and Developer. <br/> Completed my Masters in Designing in Electronic Product Designing from IIT Guwahati, 
@@ -32,12 +51,12 @@ const About = () => {
                 innovative ideas, obsessed with aesthetics, and a problem-solving attitude.
             </div>
             {/* <hr className="lg:mt-10" /> */}
-            <div className='flex flex-row w-full mt-10'>
-                <div className='flex flex-row lg:flex-col lg:w-1/2 pr-10'>
+            <div className='flex flex-col lg:flex-row w-full mt-10'>
+                <div className='flex flex-col lg:w-1/2 pr-10'>
                     {/* Atlassian */}
-                    <div className='flex flex-row'>
-                        <img className='bg-gray-100 px-4 py-4 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717161218/vedika-website/atlassian/vertical-logo-gradient-blue-atlassian_rduhem.svg' />
-                        <div className='pl-6'>
+                    <div className='flex flex-col lg:flex-row '>
+                        <img className='lg:bg-gray-100 px-4 py-4 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717161218/vedika-website/atlassian/vertical-logo-gradient-blue-atlassian_rduhem.svg' />
+                        <div className='lg:pl-6'>
                             <div className="font-yeseva text-2xl lg:pb-2">Atlassian</div>
                             <div className="font-medium">Product Design Intern </div>
                             <div className='text-gray-400 font-light pb-4'>May 2023 - July 2023</div>
@@ -48,9 +67,9 @@ const About = () => {
                         </div>
                     </div>
                     {/* IITG */}
-                    <div className='flex flex-row mt-10'>
-                        <img className='bg-gray-100 px-4 py-4 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717162545/vedika-website/icons/IIT_Guwahati_Logo_3_xcs0bw.png' />
-                        <div className='pl-6'>
+                    <div className='flex flex-col lg:flex-row mt-10'>
+                        <img className='lg:bg-gray-100 px-4 py-4 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717162545/vedika-website/icons/IIT_Guwahati_Logo_3_xcs0bw.png' />
+                        <div className='lg:pl-6'>
                             <div className="font-yeseva text-2xl lg:pb-2">IIT Guwahati</div>
                             <div className="font-medium">Faculty Research Assistant
                             </div>
@@ -62,9 +81,9 @@ const About = () => {
                         </div>
                     </div>
                     {/* Ortigan Technologies */}
-                    <div className='flex flex-row mt-10'>
-                        <img className='bg-gray-100 px-4 py-4 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717163449/vedika-website/icons/ortigan_nav_bar_logo_left_kkv2u4_chn30i.svg' />
-                        <div className='pl-6'>
+                    <div className='flex flex-col lg:flex-row mt-10'>
+                        <img className='lg:bg-gray-100 px-4 py-4 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717163449/vedika-website/icons/ortigan_nav_bar_logo_left_kkv2u4_chn30i.svg' />
+                        <div className='lg:pl-6'>
                             <div className="font-yeseva text-2xl lg:pb-2">Ortigan Technologies</div>
                             <div className="font-medium">UI Designer and Developer
                             </div>
@@ -83,11 +102,11 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-row lg:flex-col lg:w-1/2 border-l border-l-gray-500 pl-10 border-dashed'>
+                <div className='flex flex-col lg:w-1/2 lg:border-l lg:border-l-gray-500 lg:pl-10 lg:border-dashed'>
                     {/* Vitwit Technologies */}
-                    <div className='flex flex-row'>
-                        <img className='bg-gray-100 px-4 py-7 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717590867/vedika-website/icons/vitwit-dark-icon_hmscjf.png' />
-                        <div className='pl-6'>
+                    <div className='flex flex-col lg:flex-row pt-10 lg:pt-0'>
+                        <img className='lg:bg-gray-100 px-4 py-7 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717590867/vedika-website/icons/vitwit-dark-icon_hmscjf.png' />
+                        <div className='lg:pl-6'>
                             <div className="font-yeseva text-2xl lg:pb-2">Vitwit</div>
                             <div className="font-medium">UI Designer and Developer
                             </div>
@@ -109,9 +128,9 @@ const About = () => {
                         </div>
                     </div>
                     {/* IoT Research Labs */}
-                    <div className='flex flex-row mt-10'>
-                        <img className='bg-gray-100 px-4 py-5 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717566046/vedika-website/icons/iotrl-dark-log_copy_ekirb5.jpg' />
-                        <div className='pl-6'>
+                    <div className='flex flex-col lg:flex-row mt-10'>
+                        <img className='lg:bg-gray-100 px-4 py-5 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717566046/vedika-website/icons/iotrl-dark-log_copy_ekirb5.jpg' />
+                        <div className='lg:pl-6'>
                             <div className="font-yeseva text-2xl lg:pb-2">IoT Research Labs</div>
                             <div className="font-medium">Frontend Developer
                             </div>
@@ -133,22 +152,27 @@ const About = () => {
         <div className='mt-20'>
             <div className='text-center font-yeseva text-2xl mb-4'>My Favourites</div>
             <hr />
-            <marquee className='my-6 font-bold text-xl' loop="-1" direction='left' play="true" speed={50} delay={0}>
-                <span className='p-8'>Simple UI</span>
-                <span className='p-8'>Chess</span>
-                <span className='p-8'>Iced Tea</span>
-                <span className='p-8'>Mario</span>
-                <span className='p-8'>Badminton</span>
-                <span className='p-8'>Clean Inbox</span>
-                <span className='p-8'>Clash of Clans</span>
-                <span className='p-8'>Photography</span>
-                <span className='p-8'>Team Building</span>
-                <span className='p-8'>CSS</span>
-                <span className='p-8'>Supersonic Rocketship</span>
-                <span className='p-8'>French Fries</span>
-                <span className='p-8'>Embroidery</span>
+            <marquee className='my-6 font-bold text-base lg:text-xl' loop="-1" direction='left' play="true" speed={50} delay={0}>
+                <span className='p-4 md:p-8'>Simple UI</span>
+                <span className='p-4 md:p-8'>Chess</span>
+                <span className='p-4 md:p-8'>Iced Tea</span>
+                <span className='p-4 md:p-8'>Mario</span>
+                <span className='p-4 md:p-8'>Badminton</span>
+                <span className='p-4 md:p-8'>Clean Inbox</span>
+                <span className='p-4 md:p-8'>Clash of Clans</span>
+                <span className='p-4 md:p-8'>Photography</span>
+                <span className='p-4 md:p-8'>Team Building</span>
+                <span className='p-4 md:p-8'>CSS</span>
+                <span className='p-4 md:p-8'>Supersonic Rocketship</span>
+                <span className='p-4 md:p-8'>French Fries</span>
+                <span className='p-4 md:p-8'>Embroidery</span>
             </marquee>
             <hr />
+        </div>
+
+        <div className='px-6 md:px-28 lg:px-40'>
+            <div className='font-yeseva text-2xl md:text-4xl my-4 md:my-10 text-center'>Recommendations</div>
+            <ReviewsCarousel reviews={recommendationList} interval={10000} />
         </div>
     </div>
   )
