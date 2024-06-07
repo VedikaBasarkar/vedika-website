@@ -30,15 +30,16 @@ const Projects = [
         "date":"Jan 2022",
         "one-line":"Lorem ipsum dolor, aem Lorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajs",
         "url":'/jnec'
-    },{
-      "id": 4,
-      "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381061/website/jnec/a1_jynfak.jpg",
-     "name":"Photography compilation",
-      "catagory":"photography",
-      "date":" ",
-      "one-line":"Lorem ipsum dolor, aem Lorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajs",
-      "url":'/photography'
-  },
+    },
+  //   {
+  //     "id": 4,
+  //     "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381061/website/jnec/a1_jynfak.jpg",
+  //    "name":"Photography compilation",
+  //     "catagory":"photography",
+  //     "date":" ",
+  //     "one-line":"Lorem ipsum dolor, aem Lorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajs",
+  //     "url":'/photography'
+  // },
   ]; 
 
 const ProjectList = () => {
