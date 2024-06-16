@@ -2,8 +2,6 @@
 
 import React, { useEffect } from 'react'
 import '../../app/globals.css'  
-import AOS from "aos";
-import "aos/dist/aos.css";
 import ReviewsCarousel from '@/components/reviews-carousel';
 
 const recommendationList = [
@@ -27,10 +25,7 @@ const recommendationList = [
     },
   ]; 
 const About = () => {
-    useEffect(() => {
-        AOS.init();
-        // AOS.refresh();
-      }, []);
+    
   return (
     <div className=''>
         <div className='flex flex-col md:flex-row px-4 md:px-20'>
@@ -42,7 +37,6 @@ const About = () => {
                     Currently available for a full time role. </div>
             </div>
         </div>
-        <div></div>
         <div className="px-6 lg:px-40">
             <div className="font-yeseva text-2xl lg:text-4xl py-6 lg:pb-6 lg:pt-20">Vedika Basarkar (Kapatral)</div>
             <div className="pb-4">
@@ -50,7 +44,8 @@ const About = () => {
                 Expanding knowledge of designing skills of Adobe XD, Figma & User Experience Design. I’m a person with a creative vision, 
                 innovative ideas, obsessed with aesthetics, and a problem-solving attitude.
             </div>
-            {/* <hr className="lg:mt-10" /> */}
+        {/* <hr className="lg:mt-10" />  */}
+        <div className='font-yeseva text-3xl pt-14'>Work experience</div>
             <div className='flex flex-col lg:flex-row w-full mt-10'>
                 <div className='flex flex-col lg:w-1/2 pr-10'>
                     {/* Atlassian */}
@@ -61,8 +56,7 @@ const About = () => {
                             <div className="font-medium">Product Design Intern </div>
                             <div className='text-gray-400 font-light pb-4'>May 2023 - July 2023</div>
                             <div className="pb-4">
-                                I was responsible to work on the Dark mode of Bitbucket’s user interface using Atlassian’s Design System (ADS) Token. 
-                                Performed WCAG and AA tests on components which I redesigned to make it consistent across Atlassian Suite, to resolve usability issue. Teamed up with developers to understand limitations for bringing changes in user interface design.
+                            I interned at Atlassian as a Product design intern and my main gig was working on creating a Dark mode for Bitbucket’s user interface using Atlassian’s Design System Tokens. I also teamed up with developers to understand what we could and couldn't do with the design. Another thing I did was testing components to make sure they were consistent across the Atlassian Suite and fixing any usability issues that came up.
                             </div>
                         </div>
                     </div>
@@ -75,8 +69,7 @@ const About = () => {
                             </div>
                             <div className='text-gray-400 font-light pb-4'>August 2022 - May 2024</div>
                             <div className="">
-                                Designed official website for department of design of IIT Guwahati. Also Worked on information architecture, user-flows, and user experience with a team of designers.<br />
-                                Designed components, responsive across different platform by taking care of usability. Also worked on typography and color theme.
+                                I was assigned by my faculty mentor on to work on website. I worked on designing the official website for the Design department at IIT Guwahati. I teamed up with other designers to work on stuff like information architecture, user-flows, and making sure the user experience was top-notch. I made sure the website was responsive on all kinds of devices and also worked on making it totally usable. Plus, I made sure the typography and color scheme were on point too.
                             </div>
                         </div>
                     </div>
@@ -88,21 +81,22 @@ const About = () => {
                             <div className="font-medium">UI Designer and Developer
                             </div>
                             <div className='text-gray-400 font-light pb-4'>August 2020 - May 2022</div>
-                            <div className="">
-                                Designing and Developing PWA (Progressive Web App) using VueJs, Gridsome, NuxtJs, and Tailwind CSS framework for different projects according to client’s requirements.
-                                Designed wireframes, userflow and High Fidelity Designs, along with setting up the color palette, typography, components design, and prototyping using Figma. Converted designs to UI components and developed responsive screens. 
-                                Taught web development under the Ortigan Learning program.
-                                {/* <div className=" flex flex-row flex-wrap underline text-base pt-4">
+                            {/* <div className="">
+                                My main role in Ortigan was to design and develop Progressive Web Apps (PWA) for various projects based on what the clients needed. 
+                                I used VueJs, Gridsome, NuxtJs, and Tailwind CSS framework to bring these PWAs to life. <br/>
+                                Handled things from designing wireframes and userflow to designing components and creating high fidelity designs with figma prototyping. 
+                                Then converted the designs into UI components and developed responsive screens. 
+                                <div className=" flex flex-row flex-wrap underline text-base pt-4">
                                     <a className="pr-4" target='_blank' href="https://www.nomadspaces.in/">https://www.nomadspaces.in/ </a>
                                     <a className="pr-4" target='_blank' href="https://debugsbunny.com/">https://debugsbunny.com/ </a>
                                     <a className="pr-4" target='_blank' href="https://jnec-website.ortigan.dev">https://jnec-website.ortigan.dev/ </a>
                                     <a className="pr-4" target='_blank' href="http://vitwit-dev.surge.sh/">http://vitwit-dev.surge.sh/</a>
-                                </div> */}
-                            </div>
+                                </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col lg:w-1/2 lg:border-l lg:border-l-gray-500 lg:pl-10 lg:border-dashed'>
+                <div className='flex flex-col lg:w-1/2 '>
                     {/* Vitwit Technologies */}
                     <div className='flex flex-col lg:flex-row pt-10 lg:pt-0'>
                         <img className='lg:bg-gray-100 px-4 py-7 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717590867/vedika-website/icons/vitwit-dark-icon_hmscjf.png' />
@@ -136,36 +130,35 @@ const About = () => {
                             </div>
                             <div className='text-gray-400 font-light pb-4'>July 2018 - May 2019</div>
                             <div className="">
-                                FleetConnect is a fleet management system that provides real-time visibility into all critical information like location, speed, driver’s behavior, vehicle status with live tracking and much more using different types of sensors.<br />
-                                Developed different components using ReactJs+Redux, HTML5, CSS3 and Bootstrap.<br />
-                                Developed different modules like reports generation and analytics, live tracking of vehicles, and
-                                dashboard. Completed API integration for all these modules.<br />
-                                Created data models, when backend architecture was getting revamped.<br />
-                                Developed company’s official website using ReactJs, Bootstrap, NextJs, HTML5, and CSS3.
+                              I worked on FleetConnect software which is a system that helps manage fleets. It gives you all sorts of real-time info like location, speed, and even driver behavior through sensors. To build it out, I worked with ReactJs+Redux, HTML5, CSS3, and Bootstrap for creating different components and modules like reports generation, live tracking, and a dashboard. 
+                              I had to integrate APIs for all these modules too. And when the backend architecture got revamped, I created data models as well.
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
 
-        <div className='mt-20'>
+        <div className='my-10 md:my-32'>
             <div className='text-center font-yeseva text-2xl mb-4'>My Favourites</div>
             <hr />
-            <marquee className='my-6 font-bold text-base lg:text-xl' loop="-1" direction='left' play="true" speed={50} delay={0}>
-                <span className='p-4 md:p-8'>Simple UI</span>
-                <span className='p-4 md:p-8'>Chess</span>
-                <span className='p-4 md:p-8'>Iced Tea</span>
-                <span className='p-4 md:p-8'>Mario</span>
-                <span className='p-4 md:p-8'>Badminton</span>
-                <span className='p-4 md:p-8'>Clean Inbox</span>
-                <span className='p-4 md:p-8'>Clash of Clans</span>
-                <span className='p-4 md:p-8'>Photography</span>
-                <span className='p-4 md:p-8'>Team Building</span>
-                <span className='p-4 md:p-8'>CSS</span>
-                <span className='p-4 md:p-8'>Supersonic Rocketship</span>
-                <span className='p-4 md:p-8'>French Fries</span>
-                <span className='p-4 md:p-8'>Embroidery</span>
+            <marquee className='my-6 font-bold text-base lg:text-xl marquee-animation'
+             loop="-1" direction='left' play="true" speed={50} delay={0}
+             >
+                <span>Simple UI</span>
+                <span>Chess</span>
+                <span>Iced Tea</span>
+                <span>Mario</span>
+                <span>Badminton</span>
+                <span>Clean Inbox</span>
+                <span>Clash of Clans</span>
+                <span>Photography</span>
+                <span>Team Building</span>
+                <span>CSS</span>
+                <span>Supersonic Rocketship</span>
+                <span>French Fries</span>
+                <span>Embroidery</span>
             </marquee>
             <hr />
         </div>

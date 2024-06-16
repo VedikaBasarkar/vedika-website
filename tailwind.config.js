@@ -20,6 +20,7 @@ module.exports = {
         500: '#720455',
       },
       'atlassian': '#0052CC',
+      'jnec': '#AF744C',
       'darkFont': '#3C1002',
       gray: colors.gray,
       white: colors.white,

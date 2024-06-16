@@ -130,31 +130,24 @@ p{
 
 
 /* Marquee CSS */
-.marquee-container {
-  width: 100%;
+.marquee-animation{
+  /* display: flex;
+  flex-direction: row;
   overflow: hidden;
+  justify-content: flex-start;
+  white-space: nowrap; */
+  /* animation: move-rtl 10000ms linear infinite; */
+  /* position: relative; */
 }
-
-.marquee {
-  display: inline-block;
-  white-space: nowrap;
-  animation: marquee 10s linear infinite; /* Adjust duration as needed */
+.marquee-animation span{
+  padding: 32px;
 }
-
-.marquee span {
-  display: inline-block;
-  padding-right: 50px; /* Adjust as needed */
-}
-
-@keyframes marquee {
-  0% { transform: translateX(100%); }
+@keyframes slide {
+  0% { transform: translateX(0%); }
   100% { transform: translateX(-100%); }
 }
 
-.link:hover {
-  -webkit-transform: translateX(10px);
-          transform: translateX(10px);
-}
+
 /* carousel styles */
 .carousel-container{
   padding-top: 40px;
@@ -182,6 +175,9 @@ button:last-child {
   .carousel-container{
     padding-top: 0px;
     min-height: 80vh;
+  }
+  .marquee-animation span{
+    padding: 20px;
   }
 }
 @media screen and (max-width: 768px){

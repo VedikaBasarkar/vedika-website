@@ -3,9 +3,77 @@ import '../../app/globals.css'
 
 const JNEC = () => {
   return (
-    <div className='flex flex-col px-6 md:px-28 lg:px-40'>
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381061/website/jnec/a1_jynfak.jpg" />
-            <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381062/website/jnec/a2_zspxyh.jpg" />
+      <div className='flex flex-col px-6 md:px-28 lg:px-40'>
+      <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381061/website/jnec/a1_jynfak.jpg" />
+      
+      <div className=''>
+        {/* Introduction */}
+        <div className='project-section'>
+        <div className='project-section-heading'>Introduction</div>
+            {/* information */}
+            <div className=' flex flex-row flex-wrap'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                <div className='project-section-small-heading mb-5'>Role<br /><span className='text-jnec'>UI UX Designer and Developer</span> </div>
+                <div className='project-section-small-heading mb-5'>Client<br /><span className='text-jnec'>MGM's Jawaharlal Nehru Engineering College</span> </div>
+                <div className='project-section-small-heading'>Date<br /><span className='text-jnec'>Oct 2021 -  March 2022</span> </div>
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4'>
+                <p className='mb-5'>Jawaharlal Nehru Engineering College popularly known as JNEC is the constituent college of MGM University.<span className='text-jnec font-semibold'> All the engineering programs</span> are approved by AICTE and the Architecture programs by COA. </p>
+                <p className='mb-5'>This college came to us with requirement of creating <span className='text-jnec font-semibold'>a brand new official website</span> with some prerequisites in their mind. They needed total <span className='text-jnec font-semibold'>design and technical transformation</span> to take massive leap with newly established university.</p>
+                <p><span className='text-jnec font-semibold'>Vice Principal Dr. Vijaya Musande</span> and other faculties, trusted us with our work and we started with official website project.  </p>
+              </div>
+          </div>
+        </div>
+      </div>
+
+        {/* Study of existing website */}
+        <div className='project-section'>
+        <div className='project-section-heading'>Study of existing website</div>
+          {/* information */}
+          <div className='flex flex-row flex-wrap'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+            <div className='project-section-subheading'>Old website <span className='text-jnec'>Overview</span> </div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4'>
+            </div>
+          </div>
+          <div className='flex flex-row flex-wrap'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+            <div className='project-section-subheading'>Old <span className='text-jnec'>Information Architecture</span> </div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4'>
+            </div>
+          </div>
+          <div className='flex flex-row flex-wrap'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+            <div className='project-section-subheading'><span className='text-jnec'>Perfomace test</span> </div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4'>
+            </div>
+          </div>
+        </div>
+
+        {/* Stakeholder's Interview */}
+        <div className='project-section'>
+        <div className='project-section-heading'>Requirement gathering</div>
+          {/* information */}
+          <div className='flex flex-row flex-wrap'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+            <div className='project-section-subheading'>Some questions to <span className='text-jnec'>our client (Stakeholder)</span> </div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4'>
+            </div>
+          </div>
+          <div className='flex flex-row flex-wrap'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+            <div className='project-section-subheading'>What client <span className='text-jnec'>need on website</span> right now</div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4'>
+            </div>
+          </div>
+        </div>
+
+        
             <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662983725/website/jnec/J3_lxvzpq.jpg" />
             <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381063/website/jnec/a4_redpkz.jpg" />
             <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381062/website/jnec/a5-1_gsvfcg.jpg" />
@@ -25,7 +93,7 @@ const JNEC = () => {
             <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662983752/website/jnec/J17_o7pa9v.jpg" />
             {/* <!-- <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381065/website/jnec/a14_ozr3fg.jpg" /> --> */}
             <div className="flex flex-row justify-center w-full">
-              <a className="font-poppins redirectLink text-xl justify-center" href="https://jnec-website.ortigan.dev/" target="_blank">New Website Link</a>
+              <a className="font-poppins redirectLink text-xl justify-center" href="https://jnec.org/" target="_blank">New Website Link</a>
             </div>
             <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381065/website/jnec/a15_bi4mko.jpg" />
             

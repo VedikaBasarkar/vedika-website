@@ -1,5 +1,6 @@
+'use client'
+
 import React, { useState, useEffect } from 'react';
-import '@animxyz/core'
 
 const ReviewsCarousel = ({ reviews, interval = 5000 }) => {
   const [currentReview, setCurrentReview] = useState(0);
@@ -28,9 +29,9 @@ const ReviewsCarousel = ({ reviews, interval = 5000 }) => {
       <div className="w-full lg:w-10/12 px-4 lg:px-20">
         <div className='mb-2 lg:mb-6 item-group'>
           <div className="text-md lg:text-lg font-extrabold tracking-wider text-cyan-600">{reviews[currentReview].name}</div>
-          <p className="text-sm lg:text-base text-gray-500">{reviews[currentReview].profile}</p>
+          <div className="text-sm lg:text-base text-gray-500">{reviews[currentReview].profile}</div>
         </div>
-        <p className="text-sm lg:text-lg italic text-left" dangerouslySetInnerHTML={ { __html:reviews[currentReview].recommendation }}></p>
+        <div className="text-sm lg:text-lg italic text-left" dangerouslySetInnerHTML={ { __html:reviews[currentReview].recommendation }}></div>
       </div>
       <div className='hidden lg:block lg:w-1/12'><button className="p-4" onClick={nextReview}><img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1717655800/vedika-website/icons/right_qd7fgv.svg" /> </button></div>
     </div>
