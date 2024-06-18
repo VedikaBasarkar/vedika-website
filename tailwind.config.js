@@ -22,6 +22,7 @@ module.exports = {
       'atlassian': '#0052CC',
       'jnec': '#AF744C',
       'darkFont': '#3C1002',
+      'ripple': '#EF3939',
       gray: colors.gray,
       white: colors.white,
       red: colors.red,
