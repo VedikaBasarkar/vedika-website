@@ -27,9 +27,8 @@ const JNEC = () => {
       </div>
 
         {/* Study of existing website */}
-        <div className='project-section'>
+        {/* <div className='project-section'>
         <div className='project-section-heading'>Study of existing website</div>
-          {/* information */}
           <div className='flex flex-row flex-wrap'>
             <div className='w-full md:w-1/3 md:pr-4'>
             <div className='project-section-subheading'>Old website <span className='text-jnec'>Overview</span> </div>
@@ -51,12 +50,12 @@ const JNEC = () => {
             <div className='w-full md:w-2/3 md:pl-4'>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Stakeholder's Interview */}
-        <div className='project-section'>
+        {/* <div className='project-section'>
         <div className='project-section-heading'>Requirement gathering</div>
-          {/* information */}
+          information
           <div className='flex flex-row flex-wrap'>
             <div className='w-full md:w-1/3 md:pr-4'>
             <div className='project-section-subheading'>Some questions to <span className='text-jnec'>our client (Stakeholder)</span> </div>
@@ -71,7 +70,7 @@ const JNEC = () => {
             <div className='w-full md:w-2/3 md:pl-4'>
             </div>
           </div>
-        </div>
+        </div> */}
 
         
             <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662983725/website/jnec/J3_lxvzpq.jpg" />

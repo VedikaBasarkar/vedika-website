@@ -5,33 +5,34 @@ const Ripple = () => {
   return (
     <div className='flex flex-col px-6 md:px-28 lg:px-40'>
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095526/website/ripple/1_jix322.jpg" />
+        
+        {/* information */}
         <div className='project-section'>
-          <div className='project-section-heading'>Introduction</div>
-              
-              {/* information */}
-              <div className=' flex flex-row flex-wrap'>
-                <div className='w-full md:w-1/3 md:pr-4'>
-                  {/* <div className='project-section-small-heading'>Role<br /><span className='text-ripple'>UX Researcher and Designer</span> </div>
-                  <br/> */}
-                  <div className='project-section-small-heading'>Date<br /><span className='text-ripple'>July 2022 - August 2022</span> </div>
-                  <br />
-                  <div className='project-section-small-heading'>Team members<br /><span className='text-ripple'>Vedika Basarkar</span><br /><span className='text-ripple'>Sourajit Bhattacharjee</span> </div>
-                  <br />
-                  <img className='h-20' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718517877/vedika-website/ripple/yuj_vbaglj.png' />
-                </div>
-                <div className='w-full md:w-2/3 md:pl-4'>
-                  <p className='mb-5'>UXplorer’22 organized by YUJ Designs, UXplorer’22 offers an excellent platform for students to exhibit their elegant, human-centred product ideas.</p>
-                  <p className='mb-5'>Theme for this competition was <span className='text-ripple font-semibold'>Design of Digital Wellness by providing digital solution</span>. Challenge brief was as given below:</p>
-                  <p className='mb-5'>Social media is being perceived as a source of happiness today, but it often leads to stress and anxiety. And since we end up checking our phones every 4 minutes, 344 times a day, digital wellness has become more important than ever.</p>
-                  <p className='mb-5'>The biggest challenge therefore is to Design for Digital Wellness to:<br />
-                  <span className='text-ripple font-semibold'>• Safeguard sanity in a hyperconnected world<br />
-                  • Strike a balance between the real and reel life<br />
-                  • Minimize information overload</span>
-                  </p>
-                </div>
+          <div className='project-section-heading'>Introduction</div>              
+            <div className=' flex flex-row flex-wrap'>
+              <div className='w-full md:w-1/3 md:pr-4'>
+                {/* <div className='project-section-small-heading'>Role<br /><span className='text-ripple'>UX Researcher and Designer</span> </div>
+                <br/> */}
+                <div className='project-section-small-heading'>Date<br /><span className='text-ripple'>July 2022 - August 2022</span> </div>
+                <br />
+                <div className='project-section-small-heading'>Team members<br /><span className='text-ripple'>Vedika Basarkar</span><br /><span className='text-ripple'>Sourajit Bhattacharjee</span> </div>
+                <br />
+                <img className='h-20' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718517877/vedika-website/ripple/yuj_vbaglj.png' />
+              </div>
+              <div className='w-full md:w-2/3 md:pl-4'>
+                <p className='mb-5'>UXplorer’22 is design competition organized by YUJ Designs. UXplorer’22 offers an excellent platform for students to exhibit their elegant, human-centred product ideas.</p>
+                <p className='mb-5'>Theme for this competition was <span className='text-ripple font-semibold'>Design of Digital Wellness by providing digital solution</span>. Challenge brief was as given below:</p>
+                <p className='mb-5'>Social media is being perceived as a source of happiness today, but it often leads to stress and anxiety. And since we end up checking our phones every 4 minutes, 344 times a day, digital wellness has become more important than ever.</p>
+                <p className='mb-5'>The biggest challenge therefore is to Design for Digital Wellness to:<br />
+                <span className='text-ripple font-semibold'>• Safeguard sanity in a hyperconnected world<br />
+                • Strike a balance between the real and reel life<br />
+                • Minimize information overload</span>
+                </p>
+              </div>
             </div>
         </div>
 
+        {/* Design Process */}
         <div className='project-section'>
           <div className='project-section-heading'>Design Process</div>
           <p>To understand brief and to come up with solution in limited time, we preferred to follow double diamond method.</p>
@@ -39,8 +40,12 @@ const Ripple = () => {
           <img className='p-4 md:p-16' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718521663/vedika-website/ripple/double-diamond_ochbye.png"/>
         </div>
         
+        {/* First diamond */}
+        <div className='project-section-heading text-ripple'>Research and Synthesis - First Diamond</div>
+        
+        {/* basic overview */}
         <div className='project-section'>
-          <div className='project-section-heading'>Research and Synthesis - First Diamond</div>
+          <div className='project-section-heading'>Basic overview</div>
           {/* <div className='project-section-heading'>Secondary research</div> */}
           
           {/* Understanding terms */}
@@ -279,8 +284,8 @@ const Ripple = () => {
                       </div>
                     </div>
                   </div>
-                  <img className='w-full md:w-1/2' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718690089/vedika-website/ripple/Group_338_ospfeh.png"/>
-                  <img className='w-full md:w-1/2' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718691885/vedika-website/ripple/reduce_time_am9ihd.png"/>
+                  <img className='w-full md:w-1/2' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718705647/vedika-website/ripple/Group_338_sy2okw.png"/>
+                  <img className='w-full md:w-1/2' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718705647/vedika-website/ripple/Group_350_pnzmwr.png"/>
               </div>
             </div>
           </div>
@@ -302,29 +307,302 @@ const Ripple = () => {
           </div>
         </div>
 
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095539/website/ripple/23_l0wnwh.jpg" />
+        {/* Personae */}
+        <div className='project-section'>
+          <div className='project-section-heading'>Personae</div>
+          <div className='flex flex-row flex-wrap'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'>Persona <span className='text-ripple'>One</span></div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+              <div className='flex flex-row mb-10'>
+                <img className="h-24" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718861579/vedika-website/ripple/mayank-persona_yqqwto.png"/>
+                <div className='px-10'>
+                  <div className='project-section-small-heading text-ripple'>Mayank</div>
+                  <p className='text-sm'>43, Co-founder, Aviato</p>
+                  <div className='font-semibold'>“It’s really hard to control screen time of my children when I am away from them.”</div>
+                </div>
+              </div>
+              <div className='flex flex-row flex-wrap'>
+                <div className='w-full lg:w-1/2 lg:pr-4'>
+                  <b>Pain points</b>
+                  <p>• It’s hard to keep children away from mobile when I am not around.</p>
+                  <p>• Children start throwing tantrum and becoming more impatient cause of continous use.</p>
+                  <p>• Job demands working on mobile. Children see and start immitating.</p>
+                </div>
+                <div className='w-full lg:w-1/2 lg:pl-4'>
+                  <b>Goals</b>
+                  <p>• Reduce screen time of children.</p>
+                  <p>• Taking care of children’s physical as well as mental health.</p>
+                  <p>• Reduce curiosity towards social media and reduce it’s influence.</p>
+                  <p>• Monitor their use of application and restrict use.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'>Persona <span className='text-ripple'>Two</span></div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+              <div className='flex flex-row mb-10'>
+                <img className="h-24" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718879991/vedika-website/ripple/Ellipse_22_z0jcdt.png"/>
+                <div className='px-10'>
+                  <div className='project-section-small-heading text-ripple'>Shriya</div>
+                  <p className='text-sm'>19, Student, IIT Rourkela</p>
+                  <div className='font-semibold'>“Social media is becoming a bad addiction for me”</div>
+                </div>
+              </div>
+              <div className='flex flex-row flex-wrap'>
+                <div className='w-full lg:w-1/2 lg:pr-4'>
+                  <b>Pain points</b>
+                  <p>• It’s hard to control the urge of using social media.</p>
+                  <p>• Ending up spending more time than expected.</p>
+                  <p>• Not able to focus on studying when notifications keeping pinging.</p>
+                  <p>• One after another social media is spread even if you remove any.</p>
+                </div>
+                <div className='w-full lg:w-1/2 lg:pl-4'>
+                  <b>Goals</b>
+                  <p>• Reduce usage of social media and overall mobile.</p>
+                  <p>• Increase ability to focus while working.</p>
+                  <p>• Should be aware of time spent on different applications.</p>
+                  <p>• To tackle with continuous distraction by notifications.</p>
+                  <p>• Create meaningful connections.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'>Persona <span className='text-ripple'>Three</span></div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+              <div className='flex flex-row mb-10'>
+                <img className="h-24" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718879990/vedika-website/ripple/Ellipse_21_rkpg4c.png"/>
+                <div className='px-10'>
+                  <div className='project-section-small-heading text-ripple'>Arjun</div>
+                  <p className='text-sm'>32, Product manager, Hublo</p>
+                  <div className='font-semibold'>“I need stress free life without mobile”</div>
+                </div>
+              </div>
+              <div className='flex flex-row flex-wrap'>
+                <div className='w-full lg:w-1/2 lg:pr-4'>
+                  <b>Pain points</b>
+                  <p>• I have to use mobile for my work purpose, which strains my eyes and head after some time.</p>
+                  <p>• Other than work, I get many notifications from social media platforms, which takes up lot of time.</p>
+                  <p>• Since lockdown my use of mobile has also increased way too much and it’s affecting my mental and physical health.</p>
+                </div>
+                <div className='w-full lg:w-1/2 lg:pl-4'>
+                  <b>Goals</b>
+                  <p>• Optimise screen time as much possible.</p>
+                  <p>• Reduce distractions while working.</p>
+                  <p>• Reduce stress, anxiety, headache.</p>
+                  <p>• Improve mental health and physical health.</p>
+                  <p>• Reduce Notification count.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'>User <span className='text-ripple'>Journey</span></div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
+              <p>Following is a scenario for one of persona</p>
+              <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718879992/vedika-website/ripple/Ripple-storyboard-1_1_tzfvgw.png"/>
+            </div>
+          </div>
+        </div>
+
+        {/* Affinity Mapping */}
+        <div className='project-section'>
+          <div className='project-section-heading'>Affinity Mapping</div>
+          <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'><span className='text-ripple'>Pain </span>points</div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap'>
+              <p className='ripple-keywords'>Excessive screen time creating imbalance in personal and professional life</p>
+              <p className='ripple-keywords'>Inability to cut off influence of social media</p>
+              <p className='ripple-keywords'>Inability to leave phones alone</p>
+              <p className='ripple-keywords'>With every notification users check their phones</p>
+              <p className='ripple-keywords'>Low attention span</p>
+              <p className='ripple-keywords'>Even without notification, users check their looking for missed notifications</p>
+              <p className='ripple-keywords'>Users have the intent but aren’t able to maintain healthy screen habits</p>
+              <p className='ripple-keywords'>Emotional disconnect</p>
+              <p className='ripple-keywords'>Lack of offline engagement with community</p>
+              <p className='ripple-keywords'>Constant Distractions</p>
+              <p className='ripple-keywords'>Deteriorating Physical and Mental Health</p>
+              <p className='ripple-keywords'>Laxed attitude towards Addiction</p>
+              <p className='ripple-keywords'>Lack of ecosystem to keep Phones away</p>
+            </div>
+          </div>
+
+          <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'>Needs</div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap'>
+              <p className='ripple-keywords'>Reduce over usage of social media and mobile as well</p>
+              <p className='ripple-keywords'>Reduce interruption of notifications generated by applications</p>
+              <p className='ripple-keywords'>Monitoring of application use and if possible content as well</p>
+              <p className='ripple-keywords'>Creating distance between children and mobile or social media</p>
+              <p className='ripple-keywords'>Need of breaking streak of continous usage of every application</p>
+              <p className='ripple-keywords'>Monitor physical and mental health</p>
+            </div>
+          </div>
+
+          <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'><span className='text-ripple'>Goals </span></div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap'>
+              <p className='ripple-keywords'>Spending more time Offline with real People</p>
+              <p className='ripple-keywords'>Lower Cognitive Load from Phones</p>
+              <p className='ripple-keywords'>A healthy lifestyle mentally and socially</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Define problem */}
+        <div className='project-section'>
+          <div className='project-section-heading text-ripple'>Defining the Problem</div>
+          <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'><span className='text-ripple'>Problem </span>statement</div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap'>
+              <p className='project-section-small-heading'>Designing a means to allow users to indulge in tech, rehabilitate from their addiction of social media by cutting them out of the notification dopamine reward cycle in order to lead a healthier lifestyle.</p>
+            </div>
+          </div>
+
+          <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'><span className='text-ripple'>Vision </span>statement</div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap'>
+              <p className='project-section-small-heading'>A digital non-phone based system/ application that allows users to cut off notifications without being harsh on the users’ habits or behaviour that they adopt as a part of their lifestyle.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* second diamond */}
+        <div className='project-section-heading text-ripple'>Ideation and Implementation - Second Diamond</div>
+
+        {/* Ideation */}
+        <div className='project-section'>
+          <div className='project-section-heading'>Ideation</div>
+          <div className='flex flex-row flex-wrap'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'>If Not Phones,<span className='text-ripple'> then What? </span></div>
+              {/* <div className='text-sm italic mb-5 text-gray-400'>Medium blog "Rise of Wearables and future of Wearable technology" by Manasi Mishra</div> */}
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap'>
+              <p className='my-5'>What else are people carrying every time that might help in reducing screen time?</p>
+              {/* <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718883825/vedika-website/ripple/smart-wearables_j31pkk.png" /> */}
+              <img className="md:px-20 mb-5" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718883582/vedika-website/ripple/wearables_ytb2ir.png" />
+            </div>
+          </div>
+
+          <div className='project-section-subheading mt-10 md:mt-20'>Brainstorming on <span className='text-ripple'> Ideas </span></div>
+          <img src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718882131/vedika-website/ripple/Ideation_cdsxdw.png'/>
+        </div>
+
+        {/* Redefining problem */}
+        <div className='project-section'>
+          <div className='project-section-heading'>Redefining problem</div>
+          <div className='flex flex-row flex-wrap-reverse '>
+            <div className='w-full md:w-1/2 md:pr-4 justify-center'>
+              <img className="md:px-20" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718883185/vedika-website/ripple/image_66_rnwxrb.png" />
+            </div>
+            <div className='w-full md:w-1/2 md:pl-4 flex flex-col justify-center'>
+              <p className='project-section-subheading pb-10'>Designing an Application to allow people using <span className='text-ripple'>Smart Wearables</span> from their addiction of social media by <span className='text-ripple'>cutting them out of the notification dopamine reward cycle</span> in order to lead a healthier lifestyle.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* concept  */}
+        <div className='project-section'>
+          <div className='project-section-heading'>Concept</div>
+
+          <div className='project-section-subheading'><span className='text-ripple'>Features </span></div>
+          <p className='my-5'>Out of many ideas, some were finalised as shown below</p>
+          <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718885320/vedika-website/ripple/features_ojjqq0.png" />
+
+          <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'>Finalising<span className='text-ripple'> Device</span></div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap'>
+              <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718884467/vedika-website/ripple/users_mtlou0.png" />
+              <p className='my-5'>Considering the pros and cons of each, and also the application areas of all the devices, smartwatches were decided to be the main application area.</p>
+            </div>
+          </div>
+
+          <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'>Final<span className='text-ripple'> Concept</span></div>
+              <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718885822/vedika-website/ripple/smart-watch_cuhlvr.svg" />
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap font-semibold'>
+              <p className='mb-5 font-semibold'>• Reminding users to not use phones through Vibrations.</p>
+              <p className='mb-5 font-semibold'>• Giving out vibrations using Smartwatches to distract user.</p>
+              <p className='mb-5 font-semibold'>• Controlling vibrations to make users feel calm after distraction.</p>
+              <p className='mb-5 font-semibold'>• Using AI to study the user’s behaviour and health data.</p>
+              <p className='mb-5 font-semibold'>• Making quick decisions if user is using social media a lot and sending feedback.</p>
+              <p className='mb-5 font-semibold'>• Also checking current state of users and suggesting activities to do.</p>
+              <p className='mb-5 font-semibold'>• Using calm images and animations to distract users from notifications.</p>
+              <p className='mb-5 font-semibold'>• Studying unlock durations and predicting temptations using AI.</p>
+              <p className='mb-5 font-semibold'>• App doesn’t require support from phone, hence keeping it out of loop.</p>
+              <p className='mb-5 font-semibold'>• Using games to distract users in case of boredom.</p>
+              <p className='mb-5 font-semibold'>• A parental mode could be provided for parents of teens .</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Vibration and working */}
+        <div className='project-section'>
+          <div className='project-section-heading'>Vibration and It's working</div>
+          <div className='flex flex-row flex-wrap'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'>Finding Vibration<span className='text-ripple'> Pattern</span></div>
+              <div className='text-sm italic mb-5 text-gray-400'>Source: -Kelling, C., Pitaro, D., & Rantala, J. (2016, October). Good vibes: the impact of haptic patterns on stress levels. In Proceedings of the 20th International Academic Mindtrek Conference (pp. 130-136). </div>
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap font-semibold'>
+              <img className='md:px-20 mb-5' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718901902/vedika-website/ripple/The-frequency-of-each-vibration-pattern-according-to-their-ratings-of-pleasantness_1_hytkwy.png" />
+              <p className='mb-5'>The intensity reduces to calm the nerves and the frequency increases so that the brain doesn’t get distracted instantly. Also, the pattern follows the Fibonacci series which has been proven to be pleasing by research.</p>
+              {/* <img className='md:px-10' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718901902/vedika-website/ripple/Group_356_kys0cz.png" />
+              <p></p> */}
+            </div>
+          </div>
+          <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
+            <div className='w-full md:w-1/3 md:pr-4'>
+              <div className='project-section-subheading'>Merging with<span className='text-ripple'> sound</span></div>
+              {/* <div className='text-sm italic mb-5 text-gray-400'>Source: -Kelling, C., Pitaro, D., & Rantala, J. (2016, October). Good vibes: the impact of haptic patterns on stress levels. In Proceedings of the 20th International Academic Mindtrek Conference (pp. 130-136). </div> */}
+            </div>
+            <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap font-semibold'>
+              <p className='mb-5'>The vibrations could also be merged with an amplifier to give out calming sounds corresponding to the vibrations produced by the motor. But this would limit to devices which have amplifiers/ speakers.</p>
+              <p className='mb-5'>The servo motor inside Wearables can be controlled using a simple code executed through the product. The intensity of vibrations as well as the frequency can be controlled through it</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Information Architecture */}
+        <div className='project-section'>
+          <div className='project-section-heading'>Information Architecture</div>
+            <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718901227/vedika-website/ripple/Yuyj_Project_IA_s0tc3l.png" />
+            <img className="mt-10" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718901415/vedika-website/ripple/IA_secqcy.svg" />
+        </div>
+
+
+        {/* <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095539/website/ripple/23_l0wnwh.jpg" />
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095543/website/ripple/24_nlkd5p.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095547/website/ripple/25_bfddk9.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095535/website/ripple/29_kk0vwh.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095526/website/ripple/30_hhaqus.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095532/website/ripple/31_lvxrhc.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095529/website/ripple/32_hz5z6g.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095535/website/ripple/33_wfc4j2.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095529/website/ripple/34_qyvwtc.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095529/website/ripple/35_kf1yna.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095539/website/ripple/36_zsr289.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095544/website/ripple/37_itnayq.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095547/website/ripple/38_rg0mkk.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095540/website/ripple/39_fdiynr.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095549/website/ripple/40_upp7j8.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095530/website/ripple/41_ysqtij.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095551/website/ripple/42_xmyodj.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095543/website/ripple/43_mjhpwe.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095526/website/ripple/44_wjsllt.jpg" />
+        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095547/website/ripple/25_bfddk9.jpg" /> */}
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095521/website/ripple/45.5_qvepxm.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095544/website/ripple/45_anasyg.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095532/website/ripple/46_xkczhc.jpg" />
-        <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095532/website/ripple/47_cgrwvs.jpg" />
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095520/website/ripple/48_q5tbja.jpg" />
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095520/website/ripple/49_wcgszj.jpg" />
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095544/website/ripple/50_ubwtiq.jpg" />
