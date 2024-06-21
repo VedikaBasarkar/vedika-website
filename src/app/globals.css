@@ -129,25 +129,6 @@ p{
 }
 
 
-/* Marquee CSS */
-.marquee-animation{
-  /* display: flex;
-  flex-direction: row;
-  overflow: hidden;
-  justify-content: flex-start;
-  white-space: nowrap; */
-  /* animation: move-rtl 10000ms linear infinite; */
-  /* position: relative; */
-}
-.marquee-animation span{
-  padding: 32px;
-}
-@keyframes slide {
-  0% { transform: translateX(0%); }
-  100% { transform: translateX(-100%); }
-}
-
-
 /* carousel styles */
 .carousel-container{
   padding-top: 40px;
@@ -176,9 +157,6 @@ button:last-child {
     padding-top: 0px;
     min-height: 80vh;
   }
-  .marquee-animation span{
-    padding: 20px;
-  }
 }
 @media screen and (max-width: 768px){
   .carousel-container{
@@ -186,6 +164,75 @@ button:last-child {
     min-height: 70vh;
   }
 }
+
+/* Marquee.css */
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.marquee-inner {
+  display: inline-block;
+  animation: marquee 30s linear infinite;
+}
+
+.marquee-item {
+  display: inline-block;
+  padding: 0 1.5em;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+/* Back To Top Button Style */
+.back-to-top {
+  display: none; 
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  font-size: 12px;
+  color: #030637;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: display 0.3s, opacity 0.3s, bottom 0.3s;
+  transform: rotateZ(90deg);
+}
+
+.back-to-top:hover {
+  cursor: pointer;
+}
+
+/* Show the button when scrolling down */
+@media (min-width: 768px) {
+  .back-to-top {
+    display: block;
+  }
+}
+
+/* CursorCircle.css */
+.cursor-circle {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #03063741;
+  pointer-events: none; /* This ensures the circle doesn't interfere with other mouse events */
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease-out;
+  z-index: 1000;
+}
+
 
 /* ripple styles */
 .ripple-keywords{

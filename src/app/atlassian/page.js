@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../app/globals.css'  
+import '../../app/globals.css'
 
 function Atlassian() {
   return (
@@ -10,7 +10,6 @@ function Atlassian() {
         {/* Main project content */}
 
           {/* Introduction */}
-
           {/* Info about internship */}
           <div className='project-section'>
           <div className='project-section-heading'>Introduction</div>
@@ -334,7 +333,6 @@ function Atlassian() {
           </div>
 
       </div>
-
       <div className='my-20'><a className="text-xl my-20" href="/">&#60;&#60; Back to home page</a></div>
     </div>
   )

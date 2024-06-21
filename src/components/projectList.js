@@ -31,16 +31,10 @@ const Projects = [
         "one-line":"Lorem ipsum dolor, aem Lorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajs",
         "url":'/jnec'
     },
-  //   {
-  //     "id": 4,
-  //     "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381061/website/jnec/a1_jynfak.jpg",
-  //    "name":"Photography compilation",
-  //     "catagory":"photography",
-  //     "date":" ",
-  //     "one-line":"Lorem ipsum dolor, aem Lorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajs",
-  //     "url":'/photography'
-  // },
   ]; 
+  const handleClick = (myLink) => () => {
+    window.location.href=myLink;
+  }
 
 const ProjectList = () => {
 
@@ -63,16 +57,19 @@ const ProjectList = () => {
               </div>
           ))
           }
+
+          {Projects.map(item => (
+              <div key={item.id} className=''>
+                  <div onClick={handleClick(item.url)}>
+                      <img className="" src={item.img} />
+                      <div className='text-white text-md tracking-wider font-medium'>{item.catagory}</div>
+                      <div className='text-white'>{item.date}</div>
+                      <div className='text-2xl font-semibold'>{item.name}</div>
+                  </div>
+              </div>
+            ))
+          }
       </div>
-
-      {/* <div className='flex flex-row flex-wrap w-full'>
-      {Projects.map(item => (
-        <div className='w-1/2'>
-          <img src={item.img} />
-        </div>
-      ))
-
-      }</div> */}
     </div>
   );
 };

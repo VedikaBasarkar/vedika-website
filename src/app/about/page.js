@@ -3,6 +3,7 @@
 import React, { useEffect } from 'react'
 import '../../app/globals.css'  
 import ReviewsCarousel from '@/components/reviews-carousel';
+import Marquee from '@/components/marquee';
 
 const recommendationList = [
     {
@@ -140,29 +141,15 @@ const About = () => {
 
         </div>
 
+        {/* Hobbies */}
         <div className='my-10 md:my-32'>
-            <div className='text-center font-yeseva text-2xl mb-4'>My Favourites</div>
+            <div className='flex flex-row justify-center w-full'><span className='text-2xl font-semibold font-yeseva mb-5'>Things what I </span><img className='h-7 mt-1' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718974079/vedika-website/icons/heart_d96kbv.svg" /></div>
             <hr />
-            <marquee className='my-6 font-bold text-base lg:text-xl marquee-animation'
-             loop="-1" direction='left' play="true" speed={50} delay={0}
-             >
-                <span>Simple UI</span>
-                <span>Chess</span>
-                <span>Iced Tea</span>
-                <span>Mario</span>
-                <span>Badminton</span>
-                <span>Clean Inbox</span>
-                <span>Clash of Clans</span>
-                <span>Photography</span>
-                <span>Team Building</span>
-                <span>CSS</span>
-                <span>Supersonic Rocketship</span>
-                <span>French Fries</span>
-                <span>Embroidery</span>
-            </marquee>
+            <Marquee />
             <hr />
         </div>
 
+        {/* Recommendations */}
         <div className='px-6 md:px-28 lg:px-40'>
             <div className='font-yeseva text-2xl md:text-4xl my-4 md:my-10 text-center'>Recommendations</div>
             <ReviewsCarousel reviews={recommendationList} interval={10000} />

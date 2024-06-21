@@ -11,8 +11,8 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-row items-center justify-between mx-auto p-10">
           <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse font-bold">
             <span className="self-center text-lg font-sans font-medium whitespace-nowrap">
-              {/* VEDIKA BASARKAR */}
-            <img className="h-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1664265875/website/vedika-logo_q8g9zi.svg' />
+              {/* VEDIKA BASARKAR */}<div className='text-4xl font-extrabold'>V.</div>
+            {/* <img className="h-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1664265875/website/vedika-logo_q8g9zi.svg' /> */}
             </span>
           </a>
           <a href="/about" className='tracking-wider font-semibold hover:text-cyan-600'>ABOUT</a>
