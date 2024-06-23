@@ -105,7 +105,7 @@ p{
 
 @media screen and (max-width: 768px){
   p{
-    font-size: 16px;
+    font-size: 12px;
   }
   .project-section{
     padding: 20px 0px;
@@ -114,17 +114,17 @@ p{
     display: none;
   }
   .project-section-heading{
-    font-size: 20px;
-    margin-bottom: 4px;
+    font-size: 28px;
+    margin-bottom: 12px;
   }
   .project-section-subheading{
-    font-size: 16px;
+    font-size: 24px;
     margin-bottom: 4px;
   }
   .project-section-small-heading{
     font-family: 'DM sans', sans-serif;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 

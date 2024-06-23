@@ -19,6 +19,7 @@ module.exports = {
         100: '#910A67',
         500: '#720455',
       },
+      'trailOne':'#D2A400',
       'atlassian': '#0052CC',
       'jnec': '#AF744C',
       'darkFont': '#3C1002',
@@ -27,7 +28,9 @@ module.exports = {
       white: colors.white,
       red: colors.red,
       cyan: colors.cyan,
-      pink: colors.pink
+      pink: colors.pink,
+      fuchsia: colors.fuchsia
+
     },
     borderRadius: {
       'none': '0',

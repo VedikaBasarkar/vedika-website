@@ -143,9 +143,9 @@ function Atlassian() {
               <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
                 <p className='mb-5'>We gave access to Engineer Carlos to our figma file and created section where final work was showcased.</p>
                 <p className='mb-5'>I came up with <span className='text-atlassian font-semibold'>Before and After approach</span>, which will be helpful for engineer to understand where exactly the work is needed.</p>
-                <div className='flex flex-row'>
-                  <div className='w-1/2'><p className='pr-6'>Mentor, Rhys suggested the token naming conventions with all required details, which was helful to co-ordinate with engineer.</p></div>
-                  <img className='w-1/2' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717503038/vedika-website/atlassian/token-box_bfvqgh.png' />
+                <div className='flex flex-row flex-wrap'>
+                  <div className='w-full md:w-1/2'><p className='pr-6'>Mentor, Rhys suggested the token naming conventions with all required details, which was helful to co-ordinate with engineer.</p></div>
+                  <img className='w-full md:w-1/2' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717503038/vedika-website/atlassian/token-box_bfvqgh.png' />
                 </div>
               </div>
             </div>

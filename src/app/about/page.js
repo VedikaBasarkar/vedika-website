@@ -34,7 +34,7 @@ const About = () => {
             <div className='md:w-1/2 flex flex-col justify-center'>
                 <div className="font-yeseva lg:text-8xl text-2xl md:-ml-20 pt-4">Hello, <br />I'm <span className=''>Vedika</span></div>
                 <div className='font-bold text-lg lg:text-2xl py-2 md:py-6 md:pl-20'>I'm a Indian Designer and Developer <br/>
-                    Design to development, I cover whole UI part.<br/>I'm a <span className='text-cyan-600'>Computer Science Engineer</span> <br/>and now a full time <span className='text-cyan-600'>UI UX designer</span>. <br/>
+                    Design to development, I cover whole UI part.<br/>I'm a <span className='text-trailOne'>Computer Science Engineer</span> <br/>and now a full time <span className='text-trailOne'>UI UX designer</span>. <br/>
                     Currently available for a full time role. </div>
             </div>
         </div>
@@ -82,18 +82,18 @@ const About = () => {
                             <div className="font-medium">UI Designer and Developer
                             </div>
                             <div className='text-gray-400 font-light pb-4'>August 2020 - May 2022</div>
-                            {/* <div className="">
+                            <div className="">
                                 My main role in Ortigan was to design and develop Progressive Web Apps (PWA) for various projects based on what the clients needed. 
                                 I used VueJs, Gridsome, NuxtJs, and Tailwind CSS framework to bring these PWAs to life. <br/>
                                 Handled things from designing wireframes and userflow to designing components and creating high fidelity designs with figma prototyping. 
                                 Then converted the designs into UI components and developed responsive screens. 
-                                <div className=" flex flex-row flex-wrap underline text-base pt-4">
+                                {/* <div className=" flex flex-row flex-wrap underline text-base pt-4">
                                     <a className="pr-4" target='_blank' href="https://www.nomadspaces.in/">https://www.nomadspaces.in/ </a>
                                     <a className="pr-4" target='_blank' href="https://debugsbunny.com/">https://debugsbunny.com/ </a>
                                     <a className="pr-4" target='_blank' href="https://jnec-website.ortigan.dev">https://jnec-website.ortigan.dev/ </a>
                                     <a className="pr-4" target='_blank' href="http://vitwit-dev.surge.sh/">http://vitwit-dev.surge.sh/</a>
-                                </div>
-                            </div> */}
+                                </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -143,7 +143,7 @@ const About = () => {
 
         {/* Hobbies */}
         <div className='my-10 md:my-32'>
-            <div className='flex flex-row justify-center w-full'><span className='text-2xl font-semibold font-yeseva mb-5'>Things what I </span><img className='h-7 mt-1' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718974079/vedika-website/icons/heart_d96kbv.svg" /></div>
+            <div className='flex flex-row justify-center w-full'><span className='text-2xl font-semibold font-yeseva mb-5'>Things I </span><img className='h-7 mt-1' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718974079/vedika-website/icons/heart_d96kbv.svg" /></div>
             <hr />
             <Marquee />
             <hr />
