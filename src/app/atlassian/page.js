@@ -1,9 +1,11 @@
 import React from 'react'
 import '../../app/globals.css'
+import ProgressBar from '@/components/progressBar'
 
 function Atlassian() {
   return (
     <div className='flex flex-col px-6 md:px-28 lg:px-40'>
+      <ProgressBar progressColor={'#0052CC'} />
       <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1716143043/vedika-website/project-covers/atlassian-cover_os3cw9.jpg" />
       
       <div className=''>

@@ -1,9 +1,11 @@
 import React from 'react'
 import '../../app/globals.css'
+import ProgressBar from '@/components/progressBar'
 
 const JNEC = () => {
   return (
       <div className='flex flex-col px-6 md:px-28 lg:px-40'>
+      <ProgressBar progressColor={'#AF744C'} />
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381061/website/jnec/a1_jynfak.jpg" />
         <div className=''>
           {/* Introduction */}

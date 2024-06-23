@@ -4,6 +4,7 @@ import '../../app/globals.css'
 const Ripple = () => {
   return (
     <div className='flex flex-col px-6 md:px-28 lg:px-40'>
+    <ProgressBar progressColor={'#EF3939'} />
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095526/website/ripple/1_jix322.jpg" />
         
         {/* information */}

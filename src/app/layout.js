@@ -3,7 +3,7 @@ import "./globals.css";
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
 import CursorCircle from "@/components/cursorCircle";
-import BackToTop from "@/components/back-to-top";
+import BackToTop from "@/components/backToTop";
 
 export const metadata = {
   title: "Vedika",

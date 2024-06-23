@@ -7,12 +7,13 @@ import '../app/globals.css'
 const Projects = [
     {
       "id": 1,
-      "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1716143043/vedika-website/project-covers/atlassian-cover-light_kdbznh.jpg",
+      "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1719034644/vedika-website/project-covers/bitbucket_phbvrn.png",
       "name":"Atlassian (Bitbucket)",
       "catagory":"Product Design",
       "date":"July 2023",
-      "one-line":"Lorem ipsum dolor, aem Lorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajs",
-      "url":'/atlassian'
+      "url":'/atlassian',
+      "textColor":'#ffffff',
+      "backgroundColor":'#000000'
     },
     {
         "id": 2,
@@ -20,8 +21,9 @@ const Projects = [
         "name":"Ripple",
         "catagory":"UI-UX Design",
         "date":"August 2022",
-        "one-line":"Lorem ipsum dolor, aem Lorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajs",
-        "url":'/ripple'
+        "url":'/ripple',
+        "textColor":'#000',
+        "backgroundColor":''
     },{
         "id": 3,
         "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381061/website/jnec/a1_jynfak.jpg",
@@ -29,7 +31,9 @@ const Projects = [
         "catagory":"UI-UX Design and Development",
         "date":"Jan 2022",
         "one-line":"Lorem ipsum dolor, aem Lorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajs",
-        "url":'/jnec'
+        "url":'/jnec',
+        "textColor":'#000',
+        "backgroundColor":''
     },
   ]; 
   const handleClick = (myLink) => () => {
@@ -52,21 +56,19 @@ const ProjectList = () => {
                       <div className='text-gray-400'>{item.date}</div>
                   </div>
                   <div className='text-2xl font-semibold'>{item.name}</div>
-                  {/* <div>{item['one-line']}</div> */}
                   </a>
               </div>
-          ))
+            ))
           }
 
           {Projects.map(item => (
-              <div key={item.id} className=''>
-                  <div onClick={handleClick(item.url)}>
-                      <img className="" src={item.img} />
-                      <div className='text-white text-md tracking-wider font-medium'>{item.catagory}</div>
-                      <div className='text-white'>{item.date}</div>
-                      <div className='text-2xl font-semibold'>{item.name}</div>
+                <div key={item.id} onClick={handleClick(item.url)} className="project-card" style={{ backgroundImage: `url(${item.img})`, color: `${item.textColor}`, backgroundColor: `${item.backgroundColor}` }}>
+                  <div className="project-card-content p-8">
+                    <div className="text-sm py-4 tracking-widest uppercase text-gray-400">{item.date}</div>
+                    <div className='text-4xl font-bold'>{item.name}</div>
+                    <p>{item.catagory}</p>
                   </div>
-              </div>
+                </div>
             ))
           }
       </div>

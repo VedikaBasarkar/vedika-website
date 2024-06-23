@@ -36,6 +36,9 @@ const BackToTop = () => {
       {isVisible && (
         <a href="#" className="back-to-top" onClick={scrollToTop}>&larr; BACK TO TOP</a>
       )}
+      {isVisible && (
+        <a href="/" className="home-fixed">HOME PAGE</a>
+      )}
     </>
   );
 };
