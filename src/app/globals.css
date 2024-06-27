@@ -207,6 +207,7 @@ button:last-child {
   text-decoration: none;
   transition: display 0.3s, opacity 0.3s, bottom 0.3s;
   transform: rotateZ(90deg);
+  mix-blend-mode: difference;
 }
 .home-fixed{
   display: none; 
@@ -221,6 +222,7 @@ button:last-child {
   text-decoration: none;
   transition: display 0.3s, opacity 0.3s, bottom 0.3s;
   transform: rotateZ(-90deg);
+  mix-blend-mode: difference;
 }
 
 /* Show the button when scrolling down */

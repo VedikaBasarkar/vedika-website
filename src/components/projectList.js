@@ -13,7 +13,7 @@ const Projects = [
       "date":"July 2023",
       "url":'/atlassian',
       "textColor":'#ffffff',
-      "backgroundColor":'#000000',
+      "backgroundColor":'#0A1E43',
       "timeColor":'#9F9E9C'
     },
     {
@@ -62,7 +62,7 @@ const ProjectList = () => {
                   </a>
               </div>
             ))
-          } */}
+          }  */}
 
           {Projects.map(item => (
                 <div key={item.id} onClick={handleClick(item.url)} className="project-card" style={{ backgroundImage: `url(${item.img})`, color: `${item.textColor}`, backgroundColor: `${item.backgroundColor}` }}>

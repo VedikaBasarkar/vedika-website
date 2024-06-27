@@ -32,14 +32,14 @@ const BackToTop = () => {
   };
 
   return (
-    <>
+    <div className='back-to-top-card'>
       {isVisible && (
         <a href="#" className="back-to-top" onClick={scrollToTop}>&larr; BACK TO TOP</a>
       )}
       {isVisible && (
         <a href="/" className="home-fixed">HOME PAGE</a>
       )}
-    </>
+    </div>
   );
 };
 
