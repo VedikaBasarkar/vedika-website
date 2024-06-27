@@ -91,7 +91,7 @@ function Atlassian() {
                 <div className='project-section-subheading'>What are the tokens and How do these <span className='text-atlassian'>tokens work?</span></div>
               </div>
               <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
-                <p className='mb-5'>Atlassian design team created <span className='text-atlassian font-semibold'>Atlassian Design Tokens (ADT)</span> which now comes with both, light and dark color variants. You can find open documentation on <a className='text-atlassian' href='https://atlassian.design/components/tokens/all-tokens'>Atlassian.design</a> website.</p>
+                <p className='mb-5'>Atlassian design team created <span className='text-atlassian font-semibold'>Atlassian Design Tokens (ADT)</span> which now comes with both, light and dark color variants. You can find open documentation on <a name="Atlassian.design webiste" className='text-atlassian' href='https://atlassian.design/components/tokens/all-tokens'>Atlassian.design</a> website.</p>
                 <img src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717427728/vedika-website/atlassian/Screenshot_2024-06-03_at_20.44.58_bq9t0y.png' />
                 <p className='my-5'>Same tokens were listed in Atlassian design system (ADS) pluging of Figma, which had hex values also mention in their description section. Following image can give more clarity on how it is shows</p>
                 <img src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717498865/vedika-website/atlassian/ads_Plugin_ouag2h.png' />
@@ -335,7 +335,7 @@ function Atlassian() {
           </div>
 
       </div>
-      <div className='my-20'><a className="text-xl my-20" href="/">&#60;&#60; Back to home page</a></div>
+      <div className='my-20'><a name="Home page of the website" className="text-xl my-20" href="/">&#60;&#60; Back to home page</a></div>
     </div>
   )
 }

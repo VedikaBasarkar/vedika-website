@@ -612,7 +612,7 @@ const Ripple = () => {
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095549/website/ripple/53_q0vycm.jpg" />
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095536/website/ripple/55_lcmaky.jpg" />
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095520/website/ripple/56_zhbxtw.jpg" />
-        <div className='my-20'><a className="text-xl my-20" href="/">&#60;&#60; Back to home page</a></div>
+        <div className='my-20'><a name="Home page of the webiste" className="text-xl my-20" href="/">&#60;&#60; Back to home page</a></div>
     </div>
   )
 }

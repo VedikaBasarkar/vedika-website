@@ -45,10 +45,10 @@ const JNEC = () => {
           <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662983752/website/jnec/J17_o7pa9v.jpg" />
           {/* <!-- <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381065/website/jnec/a14_ozr3fg.jpg" /> --> */}
           <div className="flex flex-row justify-center w-full">
-            <a className="font-poppins redirectLink text-xl justify-center" href="https://jnec.org/" target="_blank">New Website Link</a>
+            <a className="font-poppins redirectLink text-xl justify-center" name="JNEC official webiste" href="https://jnec.org/" target="_blank">New Website Link</a>
           </div>
           <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381065/website/jnec/a15_bi4mko.jpg" />
-          <div className='my-20'><a className="text-xl my-20" href="/">&#60;&#60; Back to home page</a></div>
+          <div className='my-20'><a name="Home page of the webiste" className="text-xl my-20" href="/">&#60;&#60; Back to home page</a></div>
     </div>
   )
 }
