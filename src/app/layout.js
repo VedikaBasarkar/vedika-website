@@ -2,7 +2,6 @@
 import "./globals.css";
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
-import CursorCircle from "@/components/cursorCircle";
 import BackToTop from "@/components/backToTop";
 
 export const metadata = {
@@ -15,7 +14,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-white">
-        <CursorCircle />
         <BackToTop />
         <Navigation />
           {children}
