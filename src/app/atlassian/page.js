@@ -217,12 +217,12 @@ function Atlassian() {
             </div>
             <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
               <div className='w-full md:w-1/3 md:pr-4'>
-                <div className='project-section-subheading'><span className='text-atlassian'>Feedbacks</span> from the session</div>
+                <div className='project-section-subheading'><span className='text-atlassian'>Feedback</span> from the session</div>
               </div>
               <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
                 <img className='mb-5' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717566537/vedika-website/atlassian/Layer_1_rj4ngv.png' />
-                <p className='mb-5'>Got some feedbacks, inputs and some opinions. This actually opened all possible perspectives, which was helpful to make checklist of what final designs should have.</p>
-                <p className='mb-5'>Above image shows some of all feedbacks. I was able to catagories these all comments. </p>
+                <p className='mb-5'>Got some feedback, inputs and some opinions. This actually opened all possible perspectives, which was helpful to make checklist of what final designs should have.</p>
+                <p className='mb-5'>Above image shows some of all feedback. I was able to catagories these all comments. </p>
               </div>
             </div>
             <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
@@ -231,7 +231,7 @@ function Atlassian() {
               </div>
               <div className='w-full md:w-2/3 md:pl-4 flex flex-col justify-center'>
                 <p className='mb-5'>I categorised all inputs into sections. With the help of mentor, I went back to design decision making documentation, which was made by core design team. Also I went to slack channel where all queries regarding these tokens were discussed.</p>
-                <p className='mb-5'>I got references and I went through documents. With the help of all feedbacks, documentation, and mentor's guidance, the designs were finalized. I documented all design decisions which I made and sent to core design team. It will impact component across all products but It's now uniform across all Atlassian</p>
+                <p className='mb-5'>I got references and I went through documents. With the help of all feedback, documentation, and mentor's guidance, the designs were finalized. I documented all design decisions which I made and sent to core design team. It will impact component across all products but It's now uniform across all Atlassian</p>
                 <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1717587760/vedika-website/atlassian/finalised-design_ildcjg.png"/>
               </div>
             </div>

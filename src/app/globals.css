@@ -289,3 +289,11 @@ button:last-child {
   border-radius: 20px;
   margin: 10px 4px;
 }
+
+/* jnec styles */
+.jnec-keywords{
+  padding: 8px 12px;
+  background-color: #FFF0CC;
+  border-radius: 20px;
+  margin: 10px 4px;
+}
