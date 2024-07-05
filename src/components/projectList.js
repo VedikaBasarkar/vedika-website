@@ -47,7 +47,7 @@ const ProjectList = () => {
 
   return (
     <div>
-      <div className="px-4 md:px-36 w-full grid md:grid-cols-2 gap-20">
+      <div className="px-4 md:px-36 w-full flex flex-col md:block md:grid md:grid-cols-2 gap-20">
           {/* {Projects.map(item => (
               <div key={item.id} className=''>
                   <a href={item.url}>
