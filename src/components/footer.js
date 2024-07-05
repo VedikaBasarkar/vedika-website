@@ -4,12 +4,17 @@ import React from 'react'
 import '../app/globals.css'
 
 const Footer = () => {
+  let pathURL = '';
+
+    if (typeof window !== "undefined"){
+      pathURL = window.location.pathname;
+    }
   return (
-    <div className='px-4 md:px-40 py-10' style={window.location.pathname == '/about'? {backgroundColor:'#020317', color:'#ffffff'} : {backgroundColor:'#ffffff'}}>
+    <div className='px-4 md:px-40 py-10' style={pathURL == '/about'? {backgroundColor:'#020317', color:'#ffffff'} : {backgroundColor:'#ffffff'}}>
       <div className='font-yeseva text-3xl py-6'>Got a design dilemma?</div>
       <div className='font-yeseva text-4xl'>Don't worry, I specialize in <br />turning 'uh-oh' into 'ah-ha!' <br />Let's chat!</div>
       <div className='py-4 text-xl'>Contact me for full time job roles, freelance work, or just to say hello. <br /> I promise, I have zero inbox rule, so definitely you will hear back from me. </div>
-      {window.location.pathname == '/about' ? 
+      {pathURL == '/about' ? 
       <div className='flex flex-row justify-between py-10 flex-wrap'>
         <a name="Github link" className='w-1/2 md:w-1/6' href="https://github.com/VedikaBasarkar" target='_blank'><img className="h-14 hover:-translate-y-1" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1720172432/vedika-website/icons/mingcute_github-line_qgo6uh.svg' /></a>
         <a name="Instagram link" className='w-1/2 md:w-1/6' href="https://www.instagram.com/vedzzb/" target='_blank'><img className="h-14 hover:-translate-y-1" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1720172427/vedika-website/icons/mdi_instagram_yuyses.svg' /></a>
