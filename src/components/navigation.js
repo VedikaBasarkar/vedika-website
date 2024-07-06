@@ -25,7 +25,7 @@ export default function Navbar () {
             {/* <img className="h-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1664265875/website/vedika-logo_q8g9zi.svg' /> */}
             </span>
           </a>
-          <a name="About page" href="/about" className='tracking-wider font-semibold text-white hover:text-cyan-400'>Drom me an e-mail</a>
+          <a name="About page" href="/about" className='tracking-wider font-semibold text-white hover:text-purple-600'>Drom me an e-mail</a>
         </div>
       </nav>
 
@@ -39,7 +39,7 @@ export default function Navbar () {
             {/* <img className="h-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1664265875/website/vedika-logo_q8g9zi.svg' /> */}
             </span>
           </a>
-          <a name="About page" href="/about" className='tracking-wider font-semibold hover:text-cyan-400'>ABOUT</a>
+          <a name="About page" href="/about" className='tracking-wider font-semibold hover:text-purple-600'>ABOUT</a>
         </div>
       </nav>
 

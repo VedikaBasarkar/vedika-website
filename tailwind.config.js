@@ -29,8 +29,9 @@ module.exports = {
       red: colors.red,
       cyan: colors.cyan,
       pink: colors.pink,
-      fuchsia: colors.fuchsia
-
+      fuchsia: colors.fuchsia,
+      purple: colors.purple,
+      violet: colors.violet
     },
     borderRadius: {
       'none': '0',

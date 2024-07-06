@@ -238,8 +238,8 @@ button:last-child {
 /* CursorCircle.css */
 .cursor-circle {
   position: fixed;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-color: #03063741;
   pointer-events: none; /* This ensures the circle doesn't interfere with other mouse events */
