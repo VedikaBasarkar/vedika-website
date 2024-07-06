@@ -162,22 +162,22 @@ const About = () => {
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8'>
                 <div className='bg-gray-900 rounded-lg py-5 text-center flex flex-col items-center'>
                     <img className="h-32 p-4" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978402/vedika-website/icons/image_12_smey3z.png' />
-                    <div className='text-base p-4 bg-purple-900'>IBM’s Enterprise Design Thinking Practitioner</div>
+                    <div className='text-base p-4 bg-gray-700'>IBM’s Enterprise Design Thinking Practitioner</div>
                 </div>
 
                 <div className='bg-gray-900 rounded-lg py-5 text-center flex flex-col items-center'>
                     <img className="h-32 p-4" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978403/vedika-website/icons/image_13_ar6pod.png' />
-                    <div className='text-base p-4 bg-purple-900'>IBM’s Enterprise Design Thinking Co-creator</div>
+                    <div className='text-base p-4 bg-gray-700'>IBM’s Enterprise Design Thinking Co-creator</div>
                 </div>
 
                 <div className='bg-gray-900 rounded-lg py-5 flex flex-col items-center text-center'>
                     <img className="h-32 p-4" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978513/vedika-website/icons/google_f3cpxv.png' />
-                    <div className='text-base p-4 bg-purple-900'>Fundamentals of UX Design by Google</div>
+                    <div className='text-base p-4 bg-gray-700'>Fundamentals of UX Design by Google</div>
                 </div>
 
                 <div className='bg-gray-900 rounded-lg py-5 flex flex-col items-center text-center'>
                     <img className="h-32 p-4" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978513/vedika-website/icons/google_f3cpxv.png' />
-                    <div className='text-base p-4 bg-purple-900'>Start the UX Design Process: Empathise, Define, and Ideate </div>
+                    <div className='text-base p-4 bg-gray-700'>Start the UX Design Process: Empathise, Define, and Ideate </div>
                 </div>
             </div>
         </div>
