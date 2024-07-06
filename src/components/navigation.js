@@ -15,7 +15,6 @@ export default function Navbar () {
     <div>
     {
       pathURL == '/about' ? 
-      <div>
     <nav className="z-30 bg-primary-700" 
     // style={pathURL == '/about' ? {backgroundColor:'#020317'} : {backgroundColor:'#ffffff'}}
     >
@@ -35,7 +34,6 @@ export default function Navbar () {
           // } */}
       </div>
     </nav>
-    </div>
     :
     <div>
     <nav className="z-30 bg-white" 
