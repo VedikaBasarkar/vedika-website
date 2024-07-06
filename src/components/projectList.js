@@ -47,7 +47,7 @@ const ProjectList = () => {
 
   return (
     <div>
-      <div className="px-4 md:px-36 w-full flex flex-col md:block md:grid md:grid-cols-2 gap-20">
+      <div className="px-4 md:px-36 w-full flex flex-col md:grid md:grid-cols-2 gap-5 md:gap-20">
           {/* {Projects.map(item => (
               <div key={item.id} className=''>
                   <a href={item.url}>
@@ -66,9 +66,9 @@ const ProjectList = () => {
 
           {Projects.map(item => (
                 <div key={item.id} onClick={handleClick(item.url)} className="project-card" style={{ backgroundImage: `url(${item.img})`, color: `${item.textColor}`, backgroundColor: `${item.backgroundColor}` }}>
-                  <div className="project-card-content p-8">
-                    <div className="text-sm py-4 tracking-widest uppercase" style={{ color:`${item.timeColor}`}}>{item.date}</div>
-                    <div className='text-4xl font-bold'>{item.name}</div>
+                  <div className="p-4 md:p-8">
+                    <div className="text-sm py-2 md:py-4 tracking-widest uppercase" style={{ color:`${item.timeColor}`}}>{item.date}</div>
+                    <div className='text-2xl md:text-4xl font-bold'>{item.name}</div>
                     <p>{item.catagory}</p>
                   </div>
                 </div>

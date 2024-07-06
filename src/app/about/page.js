@@ -32,15 +32,15 @@ const About = () => {
         <div className='flex flex-col md:flex-row px-4 md:px-20'>
             <img className="w-full md:w-1/2 rounded-md " src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717390167/vedika-website/profile-photo/IMG_3905_qswdbv.jpg' />
             <div className='md:w-1/2 flex flex-col justify-center'>
-                <div className="font-yeseva lg:text-8xl text-2xl md:-ml-20 pt-4">Hello, <br />I'm <span className=''>Vedika</span></div>
+                <div className="font-yeseva lg:text-8xl text-4xl md:-ml-20 pt-4">Hello, <br />I'm <span className=''>Vedika</span></div>
                 <div className='font-bold text-lg lg:text-2xl py-2 md:py-6 md:pl-20'>I'm a Indian Designer and Developer <br/>
                     Design to development, I cover whole UI part.<br/>I'm a <span className='text-cyan-400'>Computer Science Engineer</span> <br/>and now a full time <span className='text-cyan-400'>UI UX designer</span>. <br/>
                     Currently available for a full time role. </div>
             </div>
         </div>
-        <div className="px-6 lg:px-40">
+        <div className="px-4 lg:px-40">
             <div className="font-yeseva text-2xl lg:text-4xl py-6 lg:pb-6 lg:pt-20 text-cyan-400">Vedika Basarkar (Kapatral)</div>
-            <div className="pb-4 w-3/4 font-bold text-lg lg:text-xl">
+            <div className="pb-4 md:w-3/4 font-normal md:font-bold text-base lg:text-xl">
                 I’m an experienced UI UX Designer and Developer. <br/> I completed my Masters in Designing in Electronic Product Designing from IIT Guwahati, 
                 Expanding knowledge of designing skills of Adobe XD, Figma & User Experience Design. I’m a person with a creative vision, 
                 innovative ideas, obsessed with aesthetics, and a problem-solving attitude.
@@ -50,8 +50,8 @@ const About = () => {
             <div className='flex flex-col lg:flex-row w-full mt-10'>
                 <div className='flex flex-col lg:w-1/2 pr-10'>
                     {/* Atlassian */}
-                    <div className='flex flex-col lg:flex-row '>
-                        <img className='lg:bg-gray-800 px-4 py-4 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717161218/vedika-website/atlassian/vertical-logo-gradient-blue-atlassian_rduhem.svg' />
+                    <div className='flex flex-col lg:flex-row text-left content-start'>
+                        <img className='lg:bg-gray-800 px-4 py-4 h-24 rounded-lg text-left content-start' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717161218/vedika-website/atlassian/vertical-logo-gradient-blue-atlassian_rduhem.svg' />
                         <div className='lg:pl-6'>
                             <div className="font-yeseva text-2xl lg:pb-2">Atlassian</div>
                             <div className="font-medium text-cyan-400">Product Design Intern </div>
@@ -63,7 +63,7 @@ const About = () => {
                     </div>
                     {/* IITG */}
                     <div className='flex flex-col lg:flex-row mt-10'>
-                        <img className='lg:bg-gray-800 px-4 py-4 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717162545/vedika-website/icons/IIT_Guwahati_Logo_3_xcs0bw.png' />
+                        <img className='lg:bg-gray-800 px-4 py-4 h-30 md:h-24 rounded-lg justify-start items-start w-fit' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717162545/vedika-website/icons/IIT_Guwahati_Logo_3_xcs0bw.png' />
                         <div className='lg:pl-6'>
                             <div className="font-yeseva text-2xl lg:pb-2">IIT Guwahati</div>
                             <div className="font-medium text-cyan-400">Faculty Research Assistant
@@ -100,7 +100,7 @@ const About = () => {
                 <div className='flex flex-col lg:w-1/2 '>
                     {/* Vitwit Technologies */}
                     <div className='flex flex-col lg:flex-row pt-10 lg:pt-0'>
-                        <img className='lg:bg-gray-800 px-4 py-7 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717164635/vedika-website/icons/vitwit-logo_h7ifcj.svg' />
+                        <img className='lg:bg-gray-800 md:px-4 py-7 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717164635/vedika-website/icons/vitwit-logo_h7ifcj.svg' />
                         <div className='lg:pl-6'>
                             <div className="font-yeseva text-2xl lg:pb-2">Vitwit</div>
                             <div className="font-medium text-cyan-400">UI Designer and Developer
