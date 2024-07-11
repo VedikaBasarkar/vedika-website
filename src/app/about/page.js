@@ -30,9 +30,9 @@ const About = () => {
   return (
     <div className='text-white bg-primary-700'>
         <div className='flex flex-col md:flex-row px-4 md:px-20'>
-            <img className="w-full md:w-1/2 rounded-md " src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717390167/vedika-website/profile-photo/IMG_3905_qswdbv.jpg' />
+            <img className="w-full md:w-1/2 rounded-md h-auto " src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717390167/vedika-website/profile-photo/IMG_3905_qswdbv.jpg' />
             <div className='md:w-1/2 flex flex-col justify-center'>
-                <div className="font-yeseva lg:text-8xl text-4xl md:-ml-20 pt-4">Hello, <br />I'm <span className=''>Vedika</span></div>
+                <div className="font-yeseva md:text-8xl text-4xl md:-ml-20 pt-4">Hello, <br />I'm <span className=''>Vedika</span></div>
                 <div className='font-bold text-lg lg:text-2xl py-2 md:py-6 md:pl-20'>I'm a Indian Designer and Developer <br/>
                     Design to development, I cover whole UI part.<br/>I'm a <span className='text-purple-400'>Computer Science Engineer</span> <br/>and now a full time <span className='text-purple-400'>UI UX designer</span>. <br/>
                     Currently available for a full time role. </div>
@@ -57,7 +57,7 @@ const About = () => {
                             <div className="font-medium text-purple-400">Product Design Intern </div>
                             <div className='text-gray-400 text-sm font-light pb-4'>May 2023 - July 2023</div>
                             <div className="pb-4">
-                            I interned at Atlassian as a Product design intern and my main gig was working on creating a Dark mode for Bitbucket’s user interface using Atlassian’s Design System Tokens. I also teamed up with developers to understand what we could and couldn't do with the design. Another thing I did was testing components to make sure they were consistent across the Atlassian Suite and fixing any usability issues that came up.
+                                I interned at Atlassian as a Product design intern and my main gig was working on creating a Dark mode for Bitbucket’s user interface using Atlassian’s Design System Tokens. I also teamed up with developers to understand what we could and couldn't do with the design. Another thing I did was testing components to make sure they were consistent across the Atlassian Suite and fixing any usability issues that came up.
                             </div>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ const About = () => {
                             </div>
                             <div className='text-gray-400 text-sm font-light pb-4'>August 2022 - May 2024</div>
                             <div className="">
-                                I was assigned by my faculty mentor on to work on website. I worked on designing the official website for the Design department at IIT Guwahati. I teamed up with other designers to work on stuff like information architecture, user-flows, and making sure the user experience was top-notch. I made sure the website was responsive on all kinds of devices and also worked on making it totally usable. Plus, I made sure the typography and color scheme were on point too.
+                                I was assigned by my faculty mentor on to work on website with a team of designers from our department for the official website for the Design department at IIT Guwahati. We worked on information architecture, user-flows, and making sure the user experience was top-notch. Made sure the responsive web design (RWD) with better usability, worked on typography and color scheme.
                             </div>
                         </div>
                     </div>
@@ -84,9 +84,8 @@ const About = () => {
                             <div className='text-gray-400 text-sm font-light pb-4'>August 2020 - May 2022</div>
                             <div className="">
                                 My main role in Ortigan was to design and develop Progressive Web Apps (PWA) for various projects based on what the clients needed. 
-                                I used VueJs, Gridsome, NuxtJs, and Tailwind CSS framework to bring these PWAs to life. <br/>
                                 Handled things from designing wireframes and userflow to designing components and creating high fidelity designs with figma prototyping. 
-                                Then converted the designs into UI components and developed responsive screens. 
+                                Then converted the designs into UI components and developed responsive screens using VueJS, Grodsome and Tailwind CSS. 
                                 {/* <div className=" flex flex-row flex-wrap underline text-base pt-4">
                                     <a className="pr-4" target='_blank' href="https://www.nomadspaces.in/">https://www.nomadspaces.in/ </a>
                                     <a className="pr-4" target='_blank' href="https://debugsbunny.com/">https://debugsbunny.com/ </a>
@@ -107,17 +106,9 @@ const About = () => {
                             </div>
                             <div className='text-gray-400 text-sm font-light pb-4'>June 2019 - May 2020</div>
                             <div className="">
-                                <div className="font-Medium">Aneka - Blockchain explorer</div>
+                                <div className="font-Medium"> </div>
                                 <div className="">
-                                Aneka is a block explorer for blockchains that helps users visualize various events happening in the selected blockchains based on cosmos SDK and other test networks as well as main networks.
-                                </div>
-                                <div className="font-Medium">Vwallet - Cryptocurrency wallet</div>
-                                <div className="">
-                                Vwallet is an interactive cryptocurrency wallet that lets a user make transactions across IBC (Interblockchain communication) compatible chains. It represents the steps taken to initiate and receive a transaction with minimal input from the end-user.
-                                </div>
-                                <div className="font-Medium">Jagar - Blockchain’s validators monitoring and alerting tool</div>
-                                <div className="">
-                                This tool lets users register the validators of various cosmos-based chains and helps delegators to keep track of their delegations. Users can configure custom alerts that can be sent to a telegram account or on email.
+                                    At Vitwit, I worked on these 2 platforms, Aneka (Blockchain explorer) and Jagar (Blockchain’s validators monitoring and alerting tool), collaboarting with a designer to work on information architecture and high fidelity designs. Along with that I was part for frontend development team. Using ReactJS, Bootstrap and Ant Design library, we build the platform.
                                 </div>
                             </div>
                         </div>
@@ -145,20 +136,9 @@ const About = () => {
             <div>I am a person who observes, and then asks lots of question but don't worry, you will definitely get good outcome out of it. I love to do research, always try to answers for all <span className='text-purple-400'>WHY</span>s and <span className='text-purple-400'>HOW</span>s. <br/>Working with team with different demographic background and managing time are the qualities I learnt with experience. I like to help people to solve their queries. </div>
         </div>
 
-        </div>
-
-        
-
-        {/* Hobbies */}
+        {/* Certifications */}
         <div className='my-10 md:my-32'>
-            <div className='flex flex-row justify-center w-full'><span className='text-2xl font-semibold font-yeseva mb-5'>Things I </span><img className='h-7 mt-1' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718974079/vedika-website/icons/heart_d96kbv.svg" /></div>
-            <hr />
-            <Marquee />
-            <hr />
-        </div>
-
-        <div className='my-10 md:my-32 px-4 md:px-36'>
-            <div className='font-yeseva text-2xl md:text-3xl my-4 md:my-10 text-center'>Certifications</div>
+            <div className='font-yeseva text-2xl md:text-4xl my-4 md:my-10 text-center'>Certifications</div>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8'>
                 <div className='bg-gray-900 rounded-lg py-5 text-center flex flex-col items-center'>
                     <img className="h-32 p-4" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978402/vedika-website/icons/image_12_smey3z.png' />
@@ -181,6 +161,17 @@ const About = () => {
                 </div>
             </div>
         </div>
+
+        </div>
+
+        {/* Hobbies */}
+        <div className='my-10 md:my-32'>
+            <div className='flex flex-row justify-center w-full'><span className='text-2xl font-semibold font-yeseva mb-5'>Things I </span><img className='h-7 mt-1' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718974079/vedika-website/icons/heart_d96kbv.svg" /></div>
+            <hr />
+            <Marquee />
+            <hr />
+        </div>
+
 
         {/* Recommendations */}
         <div className='px-6 md:px-28 lg:px-40'>

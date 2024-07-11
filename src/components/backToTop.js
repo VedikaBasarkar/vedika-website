@@ -31,15 +31,32 @@ const BackToTop = () => {
     });
   };
 
+  let pathURL = '';
+
+    if (typeof window !== "undefined"){
+      pathURL = window.location.pathname;
+    }
+
   return (
+    <>
+    {pathURL == '/about' ?
     <div className='back-to-top-card'>
+      {isVisible && (
+        <a name="Back to top" href="#" className="back-to-top text-white" onClick={scrollToTop}>&larr; BACK TO TOP</a>
+      )}
+      {isVisible && (
+        <a name="Back to Home page" href="/" className="home-fixed text-white">HOME PAGE</a>
+      )}
+    </div> 
+    : <div className='back-to-top-card'>
       {isVisible && (
         <a name="Back to top" href="#" className="back-to-top" onClick={scrollToTop}>&larr; BACK TO TOP</a>
       )}
       {isVisible && (
         <a name="Back to Home page" href="/" className="home-fixed">HOME PAGE</a>
       )}
-    </div>
+    </div>}
+    </>
   );
 };
 
