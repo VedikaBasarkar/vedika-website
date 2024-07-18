@@ -11,7 +11,7 @@ const Footer = () => {
     }
   return (
     <div className='px-4 md:px-40 py-10' style={pathURL == '/about'? {backgroundColor:'#020317', color:'#ffffff'} : {backgroundColor:'#ffffff'}}>
-      <div className='font-yeseva text-xl md:text-3xl py-6 text-purple-500'>Got a design dilemma?</div>
+      <div className='font-semibold text-xl md:text-3xl py-6 text-purple-500'>Got a design dilemma?</div>
       <div className='font-yeseva text-3xl md:text-4xl'>Don't worry, I specialize in <br />turning 'uh-oh' into 'ah-ha!' <br />Let's chat!</div>
       <div className='py-4 text-lg md:text-xl'>Contact me for full time job roles, freelance work, or just to say hello. <br /> I promise, I have zero inbox rule, so definitely you will hear back from me. </div>
       {pathURL == '/about' ? 

@@ -265,6 +265,27 @@ button:last-child {
   transition: width 0.25s;
 }
 
+.skill-icon{
+  height: 100px;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+.skill-icon:hover{
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%);
+  scale: 110%;
+}
+
+@media screen and (max-width: 768px) {
+  .skill-icon{
+    height: 80px;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    cursor: pointer;
+    margin: 5px;
+  }
+}
 /* Card Style */
 .project-card {
   width: 40vw;
@@ -289,6 +310,13 @@ button:last-child {
     box-shadow: 4px 4px 10px 0px #0000001b;
     transition: all 0.3s ease-in-out;
   }
+}
+
+/* Projects style */
+.project-iframes{
+  height: 90vh;
+  width: 100%;
+  border: 3px dashed;
 }
 
 /* ripple styles */
