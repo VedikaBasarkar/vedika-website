@@ -139,9 +139,9 @@ const About = () => {
     
   return (
     <div className='text-white bg-primary-700'>
-        <div className='flex flex-col md:flex-row px-4 md:px-20'>
-            <img className="w-full md:w-1/2 rounded-md h-auto " src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717390167/vedika-website/profile-photo/IMG_3905_qswdbv.jpg' />
-            <div className='md:w-1/2 flex flex-col justify-center'>
+        <div className='flex flex-col md:flex-row px-4 md:px-40'>
+            <img className="w-full md:w-1/2 rounded-md h-auto " src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1721362901/vedika-website/profile-photo/profile-vedika_eu3zya.png' />
+            <div className='md:w-3/5 flex flex-col justify-center'>
                 <div className="font-yeseva md:text-8xl text-4xl md:-ml-20 pt-4">Hello, <br />I'm <span className=''>Vedika</span></div>
                 <div className='font-bold text-lg lg:text-2xl py-2 md:py-6 md:pl-20'>I'm a Indian Designer and Developer <br/>
                     Design to development, I cover whole UI part.<br/>I'm a <span className='text-purple-400'>Computer Science Engineer</span> <br/>and now a full time <span className='text-purple-400'>UI UX designer</span>. <br/>
@@ -155,7 +155,7 @@ const About = () => {
                 Expanding knowledge of designing skills of Adobe XD, Figma & User Experience Design. I worked in industry as for full time role and worked as a freelancer as well. I’m a person with a creative vision, 
                 innovative ideas, obsessed with aesthetics, and a problem-solving attitude.
             </div>
-        {/* <hr className="lg:mt-10" />  */}
+            {/* Work experience  */}
             <div className='font-yeseva text-3xl pt-14'>Work experience</div>
             <div className='flex flex-col lg:flex-row w-full mt-10'>
                 <div className='flex flex-col lg:w-1/2 pr-10 '>
@@ -237,60 +237,61 @@ const About = () => {
                 </div>
             </div>
 
-        {/* about section (for work) */}
-        <div className='font-bold text-lg lg:text-2xl my-10 md:my-32 md:mx-64'>
-            <div className='text-lg mb-2'>At work</div>
-            <div>I am a person who observes, and then asks lots of question but don't worry, you will definitely get good outcome out of it. I love to do research, always try to answers for all <span className='text-purple-400'>WHY</span>s and <span className='text-purple-400'>HOW</span>s. <br/>Working with team with different demographic background and managing time are the qualities I learnt with experience. I like to help people to solve their queries. </div>
-        </div>
+            {/* about section (for work) */}
+            <div className='font-bold text-lg lg:text-2xl my-10 md:my-32 md:mx-64'>
+                <div className='text-lg mb-2'>At work</div>
+                <div>I am a person who observes, and then asks lots of question but don't worry, you will definitely get good outcome out of it. I love to do research, always try to answers for all <span className='text-purple-400'>WHY</span>s and <span className='text-purple-400'>HOW</span>s. <br/>Working with team with different demographic background and managing time are the qualities I learnt with experience. I like to help people to solve their queries. </div>
+            </div>
 
-        <div className='font-bold text-lg lg:text-2xl mx-5 my-10 md:my-32 md:mx-20'>
-            <div className="font-yeseva text-2xl lg:text-4xl py-6 lg:pb-20 lg:pt-20 ">Skills</div>
-            <div className="w-full flex flex-col md:grid md:grid-cols-4 gap-3 md:gap-16 mb-10">
-                {Skills.map(item => (
-                    <div key={item.id} className="text-left md:text-center text-base md:text-xl cursor-pointer hover:text-purple-400 md:hover:scale-105" >{item.name}
+            {/* Skills and Technologies */}
+            <div className='font-bold text-lg lg:text-2xl mx-5 my-10 md:my-32 md:mx-20'>
+                <div className="font-yeseva text-2xl lg:text-4xl py-6 lg:pb-20 lg:pt-20 ">Skills</div>
+                <div className="w-full flex flex-col md:grid md:grid-cols-4 gap-3 md:gap-16 mb-10">
+                    {Skills.map(item => (
+                        <div key={item.id} className="text-left md:text-center text-base md:text-xl cursor-pointer hover:text-purple-400 md:hover:scale-105" >{item.name}
+                        </div>
+                        ))
+                    }
+                </div>
+
+                <div className="font-yeseva text-2xl lg:text-4xl py-6 lg:pb-20 lg:pt-20 ">Softwares and Technologies</div>
+                <div className="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-16 items-center mb-10">
+                    {skillLogos.map(item => (
+                        <div key={item.id} className="text-center" >
+                            <img className='skill-icon' src={item.imgUrl} alt={item.name} />
+                            {/* <p>{item.name}</p> */}
+                        </div>
+                        ))
+                    }
+                </div>
+            </div>
+
+            {/* Certifications */}
+            <div className='my-20 md:my-40'>
+                <div className='font-yeseva text-2xl md:text-4xl my-4 md:my-10 text-center'>Certifications</div>
+                <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8'>
+                    <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
+                        <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/c_crop,ar_1:1/v1718978402/vedika-website/icons/image_12_smey3z.png' />
+                        <a href='https://www.credly.com/badges/528bbf6b-cffc-4511-9dd9-10a6d0b4a825?source=linked_in_profile' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-purple-400'>Enterprise Design Thinking Practitioner <br /><p className='text-sm mt-2'>course by IBM </p></a>
                     </div>
-                    ))
-                }
-            </div>
 
-            <div className="font-yeseva text-2xl lg:text-4xl py-6 lg:pb-20 lg:pt-20 ">Softwares and Technologies</div>
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-16 items-center mb-10">
-                {skillLogos.map(item => (
-                    <div key={item.id} className="text-center" >
-                        <img className='skill-icon' src={item.imgUrl} alt={item.name} />
-                        {/* <p>{item.name}</p> */}
+                    <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
+                        <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978403/vedika-website/icons/image_13_ar6pod.png' />
+                        <a href='https://www.credly.com/badges/528bbf6b-cffc-4511-9dd9-10a6d0b4a825?source=linked_in_profile' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-purple-400'>Enterprise Design Thinking Co-Creator<br /><p className='text-sm mt-2'>course by IBM </p></a>
+                        
                     </div>
-                    ))
-                }
-            </div>
-        </div>
 
-        {/* Certifications */}
-        <div className='my-20 md:my-40'>
-            <div className='font-yeseva text-2xl md:text-4xl my-4 md:my-10 text-center'>Certifications</div>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8'>
-                <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
-                    <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/c_crop,ar_1:1/v1718978402/vedika-website/icons/image_12_smey3z.png' />
-                    <div href='https://www.credly.com/badges/528bbf6b-cffc-4511-9dd9-10a6d0b4a825?source=linked_in_profile' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-purple-400'>Enterprise Design Thinking Practitioner <br /><p className='text-sm mt-2'>course by IBM </p></div>
-                </div>
+                    <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
+                        <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978513/vedika-website/icons/google_f3cpxv.png' />
+                        <a href='https://www.coursera.org/account/accomplishments/certificate/DL2CJ6VC3YAY' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-purple-400'>Fundamentals of UX Design<br /><p className='text-sm mt-2'>course by Google on Coursera </p></a>
+                    </div>
 
-                <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
-                    <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978403/vedika-website/icons/image_13_ar6pod.png' />
-                    <div href='https://www.credly.com/badges/528bbf6b-cffc-4511-9dd9-10a6d0b4a825?source=linked_in_profile' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-purple-400'>Enterprise Design Thinking Co-Creator<br /><p className='text-sm mt-2'>course by IBM </p></div>
-                    
-                </div>
-
-                <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
-                    <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978513/vedika-website/icons/google_f3cpxv.png' />
-                    <a href='https://www.coursera.org/account/accomplishments/certificate/DL2CJ6VC3YAY' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-purple-400'>Fundamentals of UX Design<br /><p className='text-sm mt-2'>course by Google on Coursera </p></a>
-                </div>
-
-                <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
-                    <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978513/vedika-website/icons/google_f3cpxv.png' />
-                    <div href='https://www.coursera.org/account/accomplishments/certificate/AJ9YYL8AWRPQ' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-purple-400'>Start the UX Design Process: Empathise, Define, and Ideate <p className='text-sm mt-2'>course by Google on Coursera </p></div>
+                    <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
+                        <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978513/vedika-website/icons/google_f3cpxv.png' />
+                        <a href='https://www.coursera.org/account/accomplishments/certificate/AJ9YYL8AWRPQ' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-purple-400'>Start the UX Design Process: Empathise, Define, and Ideate <p className='text-sm mt-2'>course by Google on Coursera </p></a>
+                    </div>
                 </div>
             </div>
-        </div>
 
         </div>
 
@@ -301,7 +302,6 @@ const About = () => {
             <Marquee />
             <hr />
         </div>
-
 
         {/* Recommendations */}
         <div className='px-6 md:px-28 lg:px-40'>
