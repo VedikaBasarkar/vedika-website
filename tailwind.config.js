@@ -31,7 +31,8 @@ module.exports = {
       pink: colors.pink,
       fuchsia: colors.fuchsia,
       purple: colors.purple,
-      violet: colors.violet
+      violet: colors.violet,
+      amber: colors.amber
     },
     borderRadius: {
       'none': '0',
