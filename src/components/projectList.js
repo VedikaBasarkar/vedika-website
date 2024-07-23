@@ -18,7 +18,7 @@ const Projects = [
     },
     {
         "id": 2,
-        "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1662095526/website/ripple/1_jix322.jpg",
+        "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1721719211/vedika-website/project-covers/Ripple-cover_wkqvc4.png",
         "name":"Ripple",
         "catagory":"UI-UX Design",
         "date":"August 2022",
@@ -28,9 +28,9 @@ const Projects = [
         "timeColor":'#FD7F7F'
     },{
         "id": 3,
-        "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381061/website/jnec/a1_jynfak.jpg",
+        "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1721717713/vedika-website/project-covers/jnec_cover_ugo1lv.png",
        "name":"JNEC",
-        "catagory":"UI-UX Design and Development",
+        "catagory":"Website Design and Development",
         "date":"Jan 2022",
         "one-line":"Lorem ipsum dolor, aem Lorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajs",
         "url":'/jnec',

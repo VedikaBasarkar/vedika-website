@@ -98,11 +98,6 @@ const skillLogos = [
         "name":"CSS3",
         "imgUrl":'https://res.cloudinary.com/db3h7h0pa/image/upload/v1721302965/vedika-website/icons/image_5_w6on0f.png'
     },
-    // {
-    //     "id":9,
-    //     "name":"Tailwind",
-    //     "imgUrl":'https://res.cloudinary.com/db3h7h0pa/image/upload/v1721302964/vedika-website/icons/image_3_mv5v3t.png'
-    // },
     {
         "id":9,
         "name":"Git",
@@ -112,6 +107,31 @@ const skillLogos = [
         "id":10,
         "name":"Jira",
         "imgUrl":'https://res.cloudinary.com/db3h7h0pa/image/upload/v1721303311/vedika-website/icons/jira_eap8mz.png'
+    },
+    {
+        "id":11,
+        "name":"Adobe XD",
+        "imgUrl":'https://res.cloudinary.com/db3h7h0pa/image/upload/v1721715805/vedika-website/icons/adobe_xd_awhq5a.png'
+    },
+    {
+        "id":12,
+        "name":"Invision",
+        "imgUrl":'https://res.cloudinary.com/db3h7h0pa/image/upload/v1721715850/vedika-website/icons/invision_mt9s8j.png'
+    },
+    {
+        "id":13,
+        "name":"Sketch",
+        "imgUrl":'https://res.cloudinary.com/db3h7h0pa/image/upload/v1721715864/vedika-website/icons/sketch_gwbazz.png'
+    },
+    {
+        "id":14,
+        "name":"Webflow",
+        "imgUrl":'https://res.cloudinary.com/db3h7h0pa/image/upload/v1721715866/vedika-website/icons/webflow_t4rs6x.png'
+    },
+    {
+        "id":15,
+        "name":"Miro",
+        "imgUrl":'https://res.cloudinary.com/db3h7h0pa/image/upload/v1721715875/vedika-website/icons/miro_klsjfs.png'
     }
 ]
 
@@ -257,9 +277,9 @@ const About = () => {
                 <div className="font-yeseva text-2xl lg:text-4xl py-6 lg:pb-20 lg:pt-20 ">Softwares and Technologies</div>
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-16 items-center mb-10">
                     {skillLogos.map(item => (
-                        <div key={item.id} className="text-center" >
+                        <div key={item.id} className="hover:name-display" >
                             <img className='skill-icon' src={item.imgUrl} alt={item.name} />
-                            {/* <p>{item.name}</p> */}
+                            {/* <div className='pt-4 text-sm font-light hidden hover:block'>{item.name}</div> */}
                         </div>
                         ))
                     }

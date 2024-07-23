@@ -311,7 +311,10 @@ button:last-child {
     transition: all 0.3s ease-in-out;
   }
 }
-
+/* about page */
+.name-display{
+  
+}
 /* Projects style */
 .project-iframes{
   height: 90vh;
