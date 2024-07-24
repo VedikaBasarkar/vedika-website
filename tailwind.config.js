@@ -24,6 +24,8 @@ module.exports = {
       'jnec': '#AF744C',
       'darkFont': '#3C1002',
       'ripple': '#EF3939',
+      'plato':'#158BA4',
+      'nomad':'#805ad5',
       gray: colors.gray,
       white: colors.white,
       red: colors.red,

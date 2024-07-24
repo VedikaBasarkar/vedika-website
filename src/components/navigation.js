@@ -20,9 +20,9 @@ export default function Navbar () {
         <div className="max-w-screen-xl flex flex-row items-center justify-between mx-auto p-10">
           <a name="Home Page" href="/" className="flex items-center space-x-3 rtl:space-x-reverse font-bold">
             <span className="self-center text-lg font-sans font-medium whitespace-nowrap">
-              <div className='text-4xl font-extrabold text-white' 
-              >V.</div>
-            {/* <img className="h-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1664265875/website/vedika-logo_q8g9zi.svg' /> */}
+              {/* <div className='text-4xl font-extrabold text-white font-yeseva' 
+              >V.</div> */}
+            <img className="h-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1664265875/website/vedika-logo_q8g9zi.svg' />
             </span>
           </a>
           <a name="About page" href="/about" className='tracking-wider font-semibold text-white hover:text-amber-600'>Drom me an e-mail</a>
@@ -35,8 +35,8 @@ export default function Navbar () {
         <div className="max-w-screen-xl flex flex-row items-center justify-between mx-auto p-10">
           <a name="Home Page" href="/" className="flex items-center space-x-3 rtl:space-x-reverse font-bold">
             <span className="self-center text-lg font-sans font-medium whitespace-nowrap">
-              <div className='text-4xl font-extrabold text-primary-700'>V.</div>
-            {/* <img className="h-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1664265875/website/vedika-logo_q8g9zi.svg' /> */}
+              {/* <div className='text-4xl font-extrabold text-primary-700'>V.</div> */}
+            <img className="h-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1664265875/website/vedika-logo_q8g9zi.svg' />
             </span>
           </a>
           <a name="About page" href="/about" className='tracking-wider font-semibold hover:text-amber-600'>ABOUT</a>
