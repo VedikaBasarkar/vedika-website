@@ -6,9 +6,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Import the functions/mixins */
 @import '@animxyz/core';
-/* Add all the core/utilities selectors */
 @include xyz-all;
 @include xyz-core;
 @include xyz-utilities;
