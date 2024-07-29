@@ -20,8 +20,8 @@ const JNEC = () => {
                 </div>
                 <div className='w-full md:w-2/3 md:pl-4'>
                   <p className='mb-5'>Jawaharlal Nehru Engineering College popularly known as JNEC is the constituent college of MGM University.<span className='text-jnec font-semibold'> All the engineering programs</span> are approved by AICTE and the Architecture programs by COA. </p>
-                  <p className='mb-5'>This college came to us with requirement of creating <span className='text-jnec font-semibold'>a brand new official website</span> with some prerequisites in their mind. They needed total <span className='text-jnec font-semibold'>design and technical transformation</span> to take massive leap with newly established university. Target was to get website ready before <span className='text-jnec font-semibold'>the new admission process starts for June 2022 batch</span>.</p>
-                  <p><span className='text-jnec font-semibold'>Vice Principal Dr. Vijaya Musande</span> and other faculties, trusted us with our work and we started with official website project.</p>
+                  <p className='mb-5'>This college came to us with a requirement of creating <span className='text-jnec font-semibold'>a brand new official website</span> with some prerequisites. They needed a total <span className='text-jnec font-semibold'>design and technical transformation</span> to take a massive leap with the newly established university. Target was to get the new website ready before <span className='text-jnec font-semibold'>the new admission process started for June 2022 batch</span>.</p>
+                  <p><span className='text-jnec font-semibold'>Vice Principal Dr. Vijaya Musande</span> and other faculties, trusted us with our work and we started with the official website project.</p>
                 </div>
               </div>
 
@@ -30,9 +30,9 @@ const JNEC = () => {
                   <div className='project-section-subheading mb-5'>Design <span className='text-jnec'>Brief</span> </div>
                 </div>
                 <div className='w-full md:w-2/3 md:pl-4'>
-                  <p className='mb-5'>The redesign of our Jawaharlal Nehru Engineering College's website aims to create <span className='text-jnec font-semibold'>a modern, user-friendly platform</span> that reflects our institution's innovative spirit and commitment to excellence. The new design will prioritize <span className='text-jnec font-semibold'>intuitive navigation,</span> ensuring that prospective students, 
-                  current students, faculty, and alumni can easily find relevant information. Aesthetically, the website will feature <span className='text-jnec font-semibold'>a clean, contemporary look with dynamic visuals</span> that showcase our cutting-edge facilities, diverse academic programs, and vibrant campus life. We will integrate <span className='text-jnec font-semibold'>responsive design principles </span>
-                  to provide a seamless experience across all devices. Additionally, the website will incorporate <span className='text-jnec font-semibold'>enhanced accessibility features and interactive elements,</span> such as virtual tours and real-time updates, to engage and inform our diverse audience effectively. </p>
+                  <p className='mb-5'>The redesign of Jawaharlal Nehru Engineering College's website aims to create <span className='text-jnec font-semibold'>a modern, user-friendly platform</span> that reflects the institution's innovative spirit and commitment to excellence. The new design will prioritize <span className='text-jnec font-semibold'>intuitive navigation,</span> ensuring that prospective students, 
+                  current students, faculty, and alumni can easily find relevant information. Aesthetically, the website will feature <span className='text-jnec font-semibold'>a clean, contemporary look with dynamic visuals</span> that showcase cutting-edge facilities, diverse academic programs, and vibrant campus life. We will integrate <span className='text-jnec font-semibold'>responsive design principles </span>
+                  to provide a seamless experience across all devices. Additionally, the website will incorporate <span className='text-jnec font-semibold'>enhanced accessibility features and interactive elements,</span> such as virtual tours and real-time updates, to engage and inform diverse audiences effectively. </p>
                 </div>
               </div>
           </div>
@@ -45,23 +45,23 @@ const JNEC = () => {
                   <div className='project-section-subheading mb-5'>Interviewing <span className='text-jnec'>Stakeholders</span> </div>
                 </div>
                 <div className='w-full md:w-2/3 md:pl-4'>
-                  <p className='mb-5'>After first meeting, we came up with some set of questions which were categorised in different verticles. These were important and helpful to understand customer's (stakeholder's) needs and vision.</p>
+                  <p className='mb-5'>After the first meeting, we came up with a set of questions which were categorised in different verticles. These were important and helpful to understand customer's (stakeholder's) needs and vision.</p>
                   <p className='font-semibold text-jnec'>General Information</p>
                   <b>1. Purpose and Goals</b>
                     <p>- What are the primary goals you want to achieve with the website redesign?</p>
                     <p>- What are the key messages or values that the website should communicate?</p>
 
                   <b>2. Target Audience</b>
-                    <p>- Who are the primary and secondary audiences for the website (e.g., prospective students, current students, faculty, alumni, industry partners)?</p>
+                    <p>- Who are the primary and secondary audiences for the website? (e.g. prospective students, current students, faculty, alumni, industry partners)</p>
                     <p>- What specific needs and expectations do each of these audience groups have from the website?</p>
 
                   <p className='mt-5 font-semibold text-jnec'>Content and Features</p>
                   <b>3. Content Management</b>
-                    <p>- What types of content will be featured on the website (e.g., news, events, research publications, course information)?</p>
+                    <p>- What type of content will be featured on the website? (e.g. news, events, research publications, course information)</p>
                     <p>- Who will be responsible for managing and updating the website content?</p>
 
                   <b>4. Features and Functionality</b>
-                    <p>- What specific features and functionalities are essential for the new website (e.g., search functionality, event calendar, online application forms)?</p>
+                    <p>- What specific features and functionalities are essential for the new website? (e.g. search functionality, event calendar, online application forms)</p>
                     <p>- Are there any new features you would like to introduce that are not present on the current website?</p>
 
                   <p className='mt-5 font-semibold text-jnec'> Design and Usability</p>
@@ -70,13 +70,13 @@ const JNEC = () => {
                     <p>- How should the design reflect the college’s brand and identity?</p>
 
                   <b>6. User Experience</b>
-                    <p>- What are the common user journeys that need to be supported (e.g., finding course information, applying for programs, accessing research resources)?</p>
+                    <p>- What are the common user journeys that need to be supported? (e.g. finding course information, applying for programs, accessing research resources)</p>
                     <p>- Are there any usability issues with the current website that need to be addressed?</p>
 
                   <p className='mt-5 font-semibold text-jnec'> Technical Requirements</p>
                   <b>7. Integration and Compatibility</b>
-                    <p>- What existing systems or databases does the website need to integrate with (e.g., student information system, learning management system)?</p>
-                    <p>- Are there any specific technical constraints or requirements (e.g., preferred CMS, hosting environment)?</p>
+                    <p>- What existing systems or databases does the website need to integrate with? (e.g.,student information system, learning management system)</p>
+                    <p>- Are there any specific technical constraints or requirements? (e.g. preferred CMS, hosting environment)</p>
 
                   <p className='mt-5 font-semibold text-jnec'> Feedback and Evaluation</p>
                   <b>8. Current Website Feedback</b>
@@ -99,14 +99,13 @@ const JNEC = () => {
               </div>
               <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap'>
                 <p className='jnec-keywords'>Enhancing user engagement and experience is a priority.</p>
-                <p className='jnec-keywords'>Modern, clean, professional design.</p>
+                <p className='jnec-keywords'>Modern, clean and professional design.</p>
                 <p className='jnec-keywords'>Increase in prospective student applications.</p>
                 <p className='jnec-keywords'>Website should focus primarily on admission process and relevant information</p>
-                <p className='jnec-keywords'>Specific needs include program details, academic resources, research updates, and community involvement opportunities.</p>
+                <p className='jnec-keywords'>Specific needs include program details, academic resources, research updates and community involvement opportunities.</p>
                 <p className='jnec-keywords'>Emphasis on navigation ease, readability, and brand alignment.</p>
                 <p className='jnec-keywords'>Current website has issues like slow load times, complex navigation, outdated design.</p>
                 <p className='jnec-keywords'>Preference for a scalable CMS with easy content management capabilities.</p>
-                <p className='jnec-keywords'>Current website has navigation complexity, slow performance, outdated design.</p>
                 <p className='jnec-keywords'>More users visiting website specially students and parents.</p>
                 <p className='jnec-keywords'>Content will be provided by our marketing team.</p>
               </div>
@@ -159,59 +158,36 @@ const JNEC = () => {
                 <div className='project-section-subheading mb-5'><span className='text-jnec'>Findings </span> </div>
               </div>
               <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap'>
-                <p className='jnec-keywords'>Slow Image Loading</p>
-                <p className='jnec-keywords'>Content Redundancy</p>
+                <p className='jnec-keywords'>Slow image loading</p>
+                <p className='jnec-keywords'>Content redundancy</p>
                 <p className='jnec-keywords'>Difficult navigation</p>
                 <p className='jnec-keywords'>Poor information architecture</p>
-                <p className='jnec-keywords'>Lack of Component Standardization</p>
-                <p className='jnec-keywords'>Lack accessibility of important content</p>
+                <p className='jnec-keywords'>Lack of component standardization</p>
+                <p className='jnec-keywords'>Lack of accessibility to important content</p>
                 <p className='jnec-keywords'>Missing potential call to actions</p>
-                <p className='jnec-keywords'>Inconsistent Visual Design with Font and Size Uniformity</p>
+                <p className='jnec-keywords'>Inconsistent visual design with font and size uniformity</p>
                 <p className='jnec-keywords'>External redirections and cluttered webpages</p>
                 <p className='jnec-keywords'>Mobile menu issues with overall non-responsive design elements</p>
-                <p className='jnec-keywords'>Absence of Analytics and Tracking</p>
+                <p className='jnec-keywords'>Absence of analytics and tracking</p>
                 <p className='jnec-keywords'>Insufficient mobile optimization</p>
-                <p className='jnec-keywords'>Inconsistent user experience cause the lack of User-Friendly features</p>
+                <p className='jnec-keywords'>Inconsistent user experience cause the lack of user-friendly features</p>
                 <p className='jnec-keywords'>Excessive sections with outdated information</p>
-                <p className='jnec-keywords'>Inconsistent Branding</p>
-                <p className='jnec-keywords'>Confusing Terminology and Inadequate Feedback Mechanisms</p>
+                <p className='jnec-keywords'>Inconsistent branding</p>
+                <p className='jnec-keywords'>Confusing terminology and inadequate feedback mechanisms</p>
               </div>
             </div>
           </div>
 
+          <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662488780/website/jnec/a9_iwlqu2.jpg" />
 
           {/* new website  */}
           <div className='project-section'>
             <div className='project-section-heading'>New Information Architecture</div>
             <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1719834307/vedika-website/jnec/new-IA_ckovhe.png" alt="New information architecture" />
 
-            <div className='flex flex-row flex-wrap mt-10 md:mt-20'>
-              <div className='w-full md:w-1/3 md:pr-4'>
-                <div className='project-section-subheading mb-5'><span className='text-jnec'>Visual </span>identity</div>
-              </div>
-              <div className='w-full md:w-2/3 md:pl-4 flex flex-row flex-wrap'>
-                <p className='jnec-keywords'>Slow Image Loading</p>
-                <p className='jnec-keywords'>Content Redundancy</p>
-                <p className='jnec-keywords'>Difficult navigation</p>
-                <p className='jnec-keywords'>Poor information architecture</p>
-                <p className='jnec-keywords'>Lack of Component Standardization</p>
-                <p className='jnec-keywords'>Lack accessibility of important content</p>
-                <p className='jnec-keywords'>Missing potential call to actions</p>
-                <p className='jnec-keywords'>Inconsistent Visual Design with Font and Size Uniformity</p>
-                <p className='jnec-keywords'>External redirections and cluttered webpages</p>
-                <p className='jnec-keywords'>Mobile menu issues with overall non-responsive design elements</p>
-                <p className='jnec-keywords'>Absence of Analytics and Tracking</p>
-                <p className='jnec-keywords'>Insufficient mobile optimization</p>
-                <p className='jnec-keywords'>Inconsistent user experience cause the lack of User-Friendly features</p>
-                <p className='jnec-keywords'>Excessive sections with outdated information</p>
-                <p className='jnec-keywords'>Inconsistent Branding</p>
-                <p className='jnec-keywords'>Confusing Terminology and Inadequate Feedback Mechanisms</p>
-              </div>
-            </div>
           </div>
 
         </div>
-          <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662488780/website/jnec/a9_iwlqu2.jpg" />
           <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662381065/website/jnec/a13_fnlns6.jpg" />
           <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662983743/website/jnec/J16_cwenyg.jpg" />
           <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1662983734/website/jnec/J17-1_dweajc.jpg" />
