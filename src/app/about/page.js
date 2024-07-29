@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect } from 'react'
-import '../../app/globals.css'  
+import '../globals.css'  
 import ReviewsCarousel from '@/components/reviews-carousel';
 import Marquee from '@/components/marquee';
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../app/globals.css'
+import '../globals.css'
 import ProgressBar from '@/components/progressBar'
 
 function Atlassian() {
