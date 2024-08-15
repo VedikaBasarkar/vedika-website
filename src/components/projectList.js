@@ -39,6 +39,17 @@ const Projects = [
       "timeColor":'#EFE0BB'
     },{
       "id": 4,
+      "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1723730369/fleetXpert/fleetXpert-cover_kb92vk.png",
+      "name":"FleetXpert",
+      "catagory":"Dashboard Design",
+      "date":"July 2024 - Aug 2024",
+      "one-line":"Lorem ipsum dolor, aem Lorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajsLorem ipsum dolor, ajs",
+      "url":'/fleetXpert',
+      "textColor":'#FF640D',
+      "backgroundColor":'#FFFBD2',
+      "timeColor":'#FF640D'
+    },{
+      "id": 5,
       "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1721804303/vedika-website/project-covers/plato_hrrfxj.png",
       "name":"Plato",
       "catagory":"Design Method Project",

@@ -26,6 +26,7 @@ module.exports = {
       'ripple': '#EF3939',
       'plato':'#158BA4',
       'nomad':'#805ad5',
+      'fleetXpert': '#03B9C4',
       gray: colors.gray,
       white: colors.white,
       red: colors.red,

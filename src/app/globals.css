@@ -348,6 +348,15 @@ button:last-child {
   margin: 10px 4px;
 }
 
+
+/* ripple styles */
+.fleetXpert-keywords{
+  padding: 8px 12px;
+  box-shadow: 0px 2px 6px #03bac478;
+  border-radius: 20px;
+  margin: 10px 4px;
+}
+
 /* jnec styles */
 .jnec-keywords{
   padding: 8px 12px;
