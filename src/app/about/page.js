@@ -139,7 +139,7 @@ const recommendationList = [
     {
         "id": 1,
         "name":"RHYS HOBBS",
-        "profile":"Senior Product Designer at Atlassian",
+        "profile":"Design Leadership at Atlassian",
         "recommendation": "<div>Vedika worked with the Data Center team during our most important project rollout - a complete refresh of our UI design across our product suite.<br />Within a few days of starting, Vedika had hit the ground running - she redesigned a key side nan component and had future-proofed it via accessibility improvements (it now meets WCAG AA), ensured it was consistent across the Atlassian suite, and resolved longstanding usability issues. As an icing on the cake, she also found time to upskill the team with her frontend tech knowledge. All of this over a short period with the team.<br />Vedika's a triple-threat designer - she has a strong foundation in development, she's highly motivated and hard-working, and she has a keen eye for design.<br />I highly recommend Vedika. Any team that works with her will not only reap the rewards of her skills and knowledge but will also grow the team's capabilities.</div>" ,
     },
     {
@@ -151,7 +151,7 @@ const recommendationList = [
     {
         "id": 3,
         "name":"PARAG CHIRDE",
-        "profile":"Senior Product Designer at Atlassian",
+        "profile":"Co-founder at Ortigan",
         "recommendation":"<div>I had the pleasure of working closely with Vedika at our startup, where she demonstrated exceptional talent, dedication, and professionalism.<br \/> As a UI/UX designer, Vedika\'s creative vision and attention to detail were truly impressive. She consistently produced designs that were not only visually stunning but also intuitive and user-friendly. In addition to her design skills, Vedika excelled as a frontend developer.<br\/>Furthermore, Vedika is a pleasure to work with. She is a great communicator, collaborator, and problem-solver. Her positive attitude and willingness to go the extra mile make her an invaluable asset to any team.<br \/>In summary, I recommend Vedika highly. Her exceptional work ethic, combined with her talent and expertise, make her an outstanding candidate for any UI/UX design or frontend development role.</div>",
     },
   ]; 
@@ -163,7 +163,7 @@ const About = () => {
             <img className="w-full md:w-1/2 rounded-md h-auto " src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1721362901/vedika-website/profile-photo/profile-vedika_eu3zya.png' />
             <div className='md:w-3/5 flex flex-col justify-center'>
                 <div className="font-yeseva md:text-8xl text-4xl md:-ml-20 pt-4">Hello, <br />I'm <span className=''>Vedika</span></div>
-                <div className='font-bold text-lg lg:text-2xl py-2 md:py-6 md:pl-20'>I'm an Indian Designer and Developer. <br/>
+                <div className='font-bold text-lg lg:text-2xl py-2 md:py-6 md:pl-20'>I'm an Indian <span className='text-amber-400'>Designer</span> with the background of <span className='text-amber-400'>Developement</span>. <br/>
                     Design to development, I cover the entire UI part.<br/>I'm a <span className='text-amber-400'>Computer Science Engineer</span> <br/>and now a full time <span className='text-amber-400'>UI UX designer</span>. <br/>
                     Currently available for a full time role. </div>
             </div>
@@ -291,12 +291,12 @@ const About = () => {
                 <div className='font-yeseva text-2xl md:text-4xl my-4 md:my-10 text-center'>Certifications</div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8'>
                     <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
-                        <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/c_crop,ar_1:1/v1718978402/vedika-website/icons/image_12_smey3z.png' />
+                        <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1725340619/vedika-website/icons/IBM-circle_kjbspi.png' />
                         <a href='https://www.credly.com/badges/528bbf6b-cffc-4511-9dd9-10a6d0b4a825?source=linked_in_profile' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-amber-400'>Enterprise Design Thinking Practitioner <br /><p className='text-sm mt-2'>course by IBM </p></a>
                     </div>
 
                     <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
-                        <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978403/vedika-website/icons/image_13_ar6pod.png' />
+                        <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1725340619/vedika-website/icons/IBM-circle_kjbspi.png' />
                         <a href='https://www.credly.com/badges/528bbf6b-cffc-4511-9dd9-10a6d0b4a825?source=linked_in_profile' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-amber-400'>Enterprise Design Thinking Co-Creator<br /><p className='text-sm mt-2'>course by IBM </p></a>
                         
                     </div>

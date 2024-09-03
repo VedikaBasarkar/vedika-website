@@ -264,9 +264,9 @@ button:last-child {
 }
 
 .skill-icon{
-  height: 100px;
-  -webkit-filter: grayscale(100%); 
-  filter: grayscale(100%);
+  height: 80px;
+  /* -webkit-filter: grayscale(100%);  */
+  /* filter: grayscale(100%); */
   cursor: pointer;
 }
 .skill-icon:hover{
