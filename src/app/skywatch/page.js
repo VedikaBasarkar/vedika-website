@@ -5,7 +5,7 @@ import ProgressBar from '@/components/progressBar'
 const JNEC = () => {
   return (
       <div className='flex flex-col px-6 md:px-28 lg:px-40'>
-      <ProgressBar progressColor={'#AF744C'} />
+      <ProgressBar progressColor={'#0F1528'} />
         <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1730292093/vedika-website/skywatch/skywatch-cover_dm9dww.jpg" />
         <div className=''>
           {/* Introduction */}
