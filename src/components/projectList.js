@@ -7,6 +7,17 @@ import '../app/globals.css'
 const Projects = [
     {
       "id": 1,
+      "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1730292546/vedika-website/skywatch/skywatch-cov_zwn6qi.jpg",
+      "name":"Skywatch",
+      "catagory":"Design Challenge",
+      "date":"Oct 2024",
+      "url":'/skywatch',
+      "textColor":'#0F1528',
+      "backgroundColor":'#fbfbfb',
+      "timeColor":'#9F9E9C'
+    },
+    {
+      "id": 2,
       "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1719034644/vedika-website/project-covers/bitbucket_phbvrn.png",
       "name":"Atlassian (Bitbucket)",
       "catagory":"Product Design",
@@ -17,7 +28,7 @@ const Projects = [
       "timeColor":'#9F9E9C'
     },
     {
-      "id": 2,
+      "id": 3,
       "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1721719211/vedika-website/project-covers/Ripple-cover_wkqvc4.png",
       "name":"Ripple",
       "catagory":"UI-UX Design",
@@ -27,7 +38,7 @@ const Projects = [
       "backgroundColor":'#FFFAF1',
       "timeColor":'#FD7F7F'
     },{
-      "id": 3,
+      "id": 4,
       "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1721803944/vedika-website/project-covers/jnec_cover_vv4lb4.png",
       "name":"JNEC",
       "catagory":"Website Design and Development",
@@ -50,8 +61,8 @@ const Projects = [
      // "backgroundColor":'#FFFBD2',
      // "timeColor":'#FF640D'
     //},
-{
-      "id": 4,
+    {
+      "id": 5,
       "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1721804303/vedika-website/project-covers/plato_hrrfxj.png",
       "name":"Plato",
       "catagory":"Design Method Project",
@@ -104,7 +115,7 @@ const ProjectList = () => {
               <div key={item.id} onClick={handleClick(item.url)} className="project-card" style={{ backgroundImage: `url(${item.img})`, color: `${item.textColor}`, backgroundColor: `${item.backgroundColor}` }}>
                 <div className="p-4 md:p-8">
                   <div className="text-sm py-2 md:py-4 tracking-widest uppercase" style={{ color:`${item.timeColor}`}}>{item.date}</div>
-                  <div className='text-2xl md:text-4xl font-bold'>{item.name}</div>
+                  <div className='text-2xl md:text-4xl font-bold text-up-animation'>{item.name}</div>
                   <p>{item.catagory}</p>
                 </div>
               </div>

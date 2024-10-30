@@ -54,8 +54,45 @@ p{
   font-size: 18px;
 }
 
-/* Project page cover style */
+.pulse{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 0 0 40px #aeaeae, 0 0 50px #eaeaea;
+  border-radius: 50%;
+  border: 1px solid #eaeaea;
+}
+.pulse span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: 1px solid #eaeaea;
+  animation: animatePulse 6s linear infinite;
 
+}
+
+@keyframe animatePulse{
+  0%
+  {
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+  }
+  50%
+  {
+    opacity: 1;
+  }
+  0%
+  {
+    width: 900px;
+    height: 900px;
+    opacity: 0;
+  }
+
+}
+/* Project page cover style */
 
 /* Side Tabs CSS */
 .side-tabs{
@@ -293,11 +330,11 @@ button:last-child {
   background-repeat: no-repeat;
   position: relative;
   border-radius: 20px;
-  box-shadow: 4px 4px 10px 0px #0000001b;
+  box-shadow: 0px 4px 10px 2px #0000001b;
   transition: all 0.3s ease-in-out;
 }
 .project-card:hover{
-  box-shadow: 8px 8px 10px 0px #0000003b;
+  box-shadow: 0px 8px 10px 2px #0000003b;
   background-size: 105% auto;
 }
 @media screen and (max-width: 768px){

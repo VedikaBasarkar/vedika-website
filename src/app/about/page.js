@@ -4,6 +4,7 @@ import React, { useEffect } from 'react'
 import '../globals.css'  
 import ReviewsCarousel from '@/components/reviews-carousel';
 import Marquee from '@/components/marquee';
+import RippleBG from '@/components/rippleBg';
 
 
 const Skills = [
@@ -168,6 +169,7 @@ const About = () => {
                     Currently available for a full time role. </div>
             </div>
         </div>
+        {/* <RippleBG /> */}
         <div className="px-4 lg:px-40">
             <div className="font-yeseva text-2xl lg:text-4xl py-6 lg:pb-6 lg:pt-20 text-amber-400">Vedika Basarkar (Kapatral)</div>
             <div className="pb-4 md:w-3/4 font-normal md:font-bold text-base lg:text-xl">
