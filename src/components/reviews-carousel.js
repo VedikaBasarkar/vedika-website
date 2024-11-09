@@ -28,7 +28,7 @@ const ReviewsCarousel = ({ reviews, interval = 5000 }) => {
       <div className='hidden lg:block lg:w-1/12'><button className="lg:p-4" onClick={prevReview}> <img src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1720172677/vedika-website/icons/left-1_xdzm10.svg" /> </button></div>
       <div className="w-full lg:w-10/12 px-4 lg:px-20">
         <div className='mb-2 lg:mb-6 item-group'>
-          <div className="text-md lg:text-lg font-extrabold tracking-wider text-amber-400">{reviews[currentReview].name}</div>
+          <div className="text-md lg:text-lg font-extrabold tracking-wider text-cyan-400">{reviews[currentReview].name}</div>
           <div className="text-sm lg:text-base text-gray-400">{reviews[currentReview].profile}</div>
         </div>
         <div className="text-sm lg:text-lg italic text-left" dangerouslySetInnerHTML={ { __html:reviews[currentReview].recommendation }}></div>

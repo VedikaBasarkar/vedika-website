@@ -161,24 +161,24 @@ const About = () => {
   return (
     <div className='text-white bg-primary-700'>
         <div className='flex flex-col md:flex-row px-4 md:px-40'>
-            <img className="w-full md:w-1/2 rounded-md h-auto " src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1721362901/vedika-website/profile-photo/profile-vedika_eu3zya.png' />
+            <img className="w-full md:w-1/2 rounded-md h-auto" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1721362901/vedika-website/profile-photo/profile-vedika_eu3zya.png' />
             <div className='md:w-3/5 flex flex-col justify-center'>
-                <div className="font-yeseva md:text-8xl text-4xl md:-ml-20 pt-4">Hello, <br />I'm <span className=''>Vedika</span></div>
-                <div className='font-bold text-lg lg:text-2xl py-2 md:py-6 md:pl-20'>I'm an Indian <span className='text-amber-400'>Designer</span> with the background of <span className='text-amber-400'>Developement</span>. <br/>
-                    Design to development, I cover the entire UI part.<br/>I'm a <span className='text-amber-400'>Computer Science Engineer</span> <br/>and now a full time <span className='text-amber-400'>UI UX designer</span>. <br/>
+                <div className="font-sans font-bold md:text-8xl text-4xl md:-ml-20 pt-4">Hello, <br />I'm <span className=''>Vedika</span></div>
+                <div className='font-bold text-lg lg:text-2xl py-2 md:py-6 md:pl-20'>I'm an Indian <span className='text-cyan-400'>Designer</span> with the background of <span className='text-cyan-400'>Developement</span>. <br/>
+                    Design to development, I cover the entire UI part.<br/>I'm a <span className='text-cyan-400'>Computer Science Engineer</span> <br/>and now a full time <span className='text-cyan-400'>UI UX designer</span>. <br/>
                     Currently available for a full time role. </div>
             </div>
         </div>
         {/* <RippleBG /> */}
         <div className="px-4 lg:px-40">
-            <div className="font-yeseva text-2xl lg:text-4xl py-6 lg:pb-6 lg:pt-20 text-amber-400">Vedika Basarkar (Kapatral)</div>
-            <div className="pb-4 md:w-3/4 font-normal md:font-bold text-base lg:text-xl">
+            <div className="font-sans text-2xl lg:text-4xl py-6 lg:pb-6 lg:pt-20 text-cyan-400 font-bold">Vedika Basarkar (Kapatral)</div>
+            <div className="pb-4 md:w-3/4 font-normal md:font-semibold text-base lg:text-xl">
                 I’m an experienced UI UX Designer and Developer. <br/> I completed my Masters in Designing in Electronic Product Designing from IIT Guwahati. 
                 Expanding my knowledge of designing skills in User Experience Design, Adobe XD & Figma. I worked in the industry in a full time role as well as a freelancer. I’m a person with a creative vision, 
                 innovative ideas, obsession with aesthetics, and a problem-solving attitude.
             </div>
             {/* Work experience  */}
-            <div className='font-yeseva text-3xl pt-14'>Work experience</div>
+            <div className='font-sans font-bold text-3xl pt-14'>Work experience</div>
             <div className='flex flex-col lg:flex-row w-full mt-10'>
                 <div className='flex flex-col lg:w-1/2 pr-10 '>
                     {/* Atlassian */}
@@ -186,11 +186,11 @@ const About = () => {
                         <img className='lg:bg-gray-900 px-4 py-4 h-24 rounded-lg text-left justify-start items-start content-start' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717161218/vedika-website/atlassian/vertical-logo-gradient-blue-atlassian_rduhem.svg' />
                         <div className='lg:pl-6'>
                             <div className="font-semibold text-2xl lg:pb-2">Atlassian</div>
-                            <div className="font-medium text-amber-400">Product Design Intern </div>
+                            <div className="font-medium text-cyan-400">Product Design Intern </div>
                             <div className='text-gray-400 text-sm font-light pb-4'>May 2023 - July 2023</div>
-                            <div className="pb-4 text-sm">
+                            {/* <div className="pb-4 text-sm">
                                 I interned at Atlassian as a Product design intern and my main gig was working on creating a Dark mode for Bitbucket’s user interface using Atlassian’s Design System Tokens. I teamed up with developers to understand what we could and couldn't do with the design. I also tested components to make sure they were consistent across the Atlassian Suite and fixing any usability issues that came up.
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     {/* IITG */}
@@ -198,12 +198,12 @@ const About = () => {
                         <img className='lg:bg-gray-900 px-4 py-4 h-30 md:py-4 md:w-24 md:h-24 rounded-lg justify-start items-start w-fit' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717162545/vedika-website/icons/IIT_Guwahati_Logo_3_xcs0bw.png' />
                         <div className='lg:pl-6'>
                             <div className="font-semibold text-2xl lg:pb-2">IIT Guwahati</div>
-                            <div className="font-medium text-amber-400">Faculty Research Assistant
+                            <div className="font-medium text-cyan-400">Faculty Research Assistant
                             </div>
                             <div className='text-gray-400 text-sm font-light pb-4'>August 2022 - May 2024</div>
-                            <div className="pb-4 text-sm">
+                            {/* <div className="pb-4 text-sm">
                                 I was assigned by my faculty mentor to work on the official website of the Design department at IIT Guwahati with a team of designers from our department. We worked on information architecture, user-flows, and making sure the user experience was top-notch. Worked on the responsive web design (RWD) with better usability and also on typography & color scheme.
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     {/* Ortigan Technologies */}
@@ -211,20 +211,20 @@ const About = () => {
                         <img className='lg:bg-gray-900 px-4 py-4 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717163449/vedika-website/icons/ortigan_yn5yvq.svg' />
                         <div className='lg:pl-6'>
                             <div className="font-semibold text-2xl lg:pb-2">Ortigan Technologies</div>
-                            <div className="font-medium text-amber-400">UI Designer and Developer
+                            <div className="font-medium text-cyan-400">UI Designer and Developer
                             </div>
                             <div className='text-gray-400 text-sm font-light pb-4'>August 2020 - May 2022</div>
-                            <div className="pb-4 text-sm">
+                            {/* <div className="pb-4 text-sm">
                                 My main role in Ortigan was to design and develop Progressive Web Apps (PWA) for various projects based clients requirements. 
                                 My responsibilities included designing wireframes and userflow to designing components and creating high fidelity designs with figma prototyping. 
                                 I converted the designs into UI components and developed responsive screens using VueJS, Grodsome and Tailwind CSS. 
-                                {/* <div className=" flex flex-row flex-wrap underline text-base pt-4">
+                            </div> */}
+                            {/* <div className=" flex flex-row flex-wrap underline text-base pt-4">
                                     <a className="pr-4" target='_blank' href="https://www.nomadspaces.in/">https://www.nomadspaces.in/ </a>
                                     <a className="pr-4" target='_blank' href="https://debugsbunny.com/">https://debugsbunny.com/ </a>
                                     <a className="pr-4" target='_blank' href="https://jnec-website.ortigan.dev">https://jnec-website.ortigan.dev/ </a>
                                     <a className="pr-4" target='_blank' href="http://vitwit-dev.surge.sh/">http://vitwit-dev.surge.sh/</a>
                                 </div> */}
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -234,12 +234,12 @@ const About = () => {
                         <img className='lg:bg-gray-900 md:px-4 py-7 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717164635/vedika-website/icons/vitwit-logo_h7ifcj.svg' />
                         <div className='lg:pl-6'>
                             <div className="font-semibold text-2xl lg:pb-2">Vitwit</div>
-                            <div className="font-medium text-amber-400">UI Designer and Developer
+                            <div className="font-medium text-cyan-400">UI Designer and Developer
                             </div>
                             <div className='text-gray-400 text-sm font-light pb-4'>June 2019 - May 2020</div>
-                            <div className="pb-4 text-sm">
+                            {/* <div className="pb-4 text-sm">
                                 At Vitwit, I worked on 2 platforms, Aneka (Blockchain explorer) and Jagar (Blockchain’s validators monitoring and alerting tool), collaboarting with a designer to work on information architecture and high fidelity designs. Along with that I was part of the frontend development team. We built the platforms using ReactJS, Bootstrap and Ant Design library.
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     {/* IoT Research Labs */}
@@ -247,13 +247,13 @@ const About = () => {
                         <img className='lg:bg-gray-900 px-4 py-5 w-24 h-24 rounded-lg' src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1717566046/vedika-website/icons/iotrl-dark-log_copy_ekirb5.jpg' />
                         <div className='lg:pl-6'>
                             <div className="font-semibold text-2xl lg:pb-2">IoT Research Labs</div>
-                            <div className="font-medium text-amber-400">Frontend Developer
+                            <div className="font-medium text-cyan-400">Frontend Developer
                             </div>
                             <div className='text-gray-400 text-sm font-light pb-4'>July 2018 - May 2019</div>
-                            <div className="pb-4 text-sm">
+                            {/* <div className="pb-4 text-sm">
                               I worked on FleetConnect which is a system that helps in managing fleets. It gives real-time information like location, speed, and even driver behavior through sensors. We used ReactJs+Redux, HTML5, CSS3, and Bootstrap for development. Responsive components and modules like reports generation, live tracking, and a dashboard were built. 
                               I integrated APIs for all these modules and created data models when the backend architecture was revamped.
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -262,21 +262,21 @@ const About = () => {
             {/* about section (for work) */}
             <div className='font-bold text-lg lg:text-2xl my-10 md:my-32 md:mx-64'>
                 <div className='text-lg mb-2'>At work</div>
-                <div>I am a person who observes, and then asks a lots of question. But don't worry, you will definitely get a good outcome out of it. I love to do research, always try to answers for all <span className='text-amber-400'>WHY</span>s and <span className='text-amber-400'>HOW</span>s. <br/>Working with teams with different demographic background and managing time are the qualities I learnt with experience. I like to help people in solving their queries. </div>
+                <div>I am a person who observes, and then asks a lots of question. But don't worry, you will definitely get a good outcome out of it. I love to do research, always try to answers for all <span className='text-cyan-400'>WHY</span>s and <span className='text-cyan-400'>HOW</span>s. <br/>Working with teams with different demographic background and managing time are the qualities I learnt with experience. I like to help people in solving their queries. </div>
             </div>
 
             {/* Skills and Technologies */}
             <div className='font-bold text-lg lg:text-2xl mx-5 my-10 md:my-32 md:mx-20'>
-                <div className="font-yeseva text-2xl lg:text-4xl py-6 lg:pb-20 lg:pt-20 ">Skills</div>
+                <div className="font-sans font-bold text-2xl lg:text-4xl py-6 lg:pb-20 lg:pt-20 ">Skills</div>
                 <div className="w-full flex flex-col md:grid md:grid-cols-4 gap-3 md:gap-16 mb-10">
                     {Skills.map(item => (
-                        <div key={item.id} className="text-left md:text-center text-base md:text-xl cursor-pointer hover:text-amber-400 md:hover:scale-105" >{item.name}
+                        <div key={item.id} className="text-left md:text-center text-base md:text-xl cursor-pointer hover:text-cyan-400 md:hover:scale-105" >{item.name}
                         </div>
                         ))
                     }
                 </div>
 
-                <div className="font-yeseva text-2xl lg:text-4xl py-6 lg:pb-20 lg:pt-20 ">Softwares and Technologies</div>
+                <div className="font-sans font-bold text-2xl lg:text-4xl py-6 lg:pb-20 lg:pt-20 ">Softwares and Technologies</div>
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-16 items-center mb-10">
                     {skillLogos.map(item => (
                         <div key={item.id} className="hover:name-display tooltip" >
@@ -290,27 +290,27 @@ const About = () => {
 
             {/* Certifications */}
             <div className='my-20 md:my-40'>
-                <div className='font-yeseva text-2xl md:text-4xl my-4 md:my-10 text-center'>Certifications</div>
+                <div className='font-sans font-bold text-2xl md:text-4xl my-4 md:my-10 text-center'>Certifications</div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8'>
                     <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
                         <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1725340619/vedika-website/icons/IBM-circle_kjbspi.png' />
-                        <a href='https://www.credly.com/badges/528bbf6b-cffc-4511-9dd9-10a6d0b4a825?source=linked_in_profile' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-amber-400'>Enterprise Design Thinking Practitioner <br /><p className='text-sm mt-2'>course by IBM </p></a>
+                        <a href='https://www.credly.com/badges/528bbf6b-cffc-4511-9dd9-10a6d0b4a825?source=linked_in_profile' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-cyan-400'>Enterprise Design Thinking Practitioner <br /><p className='text-sm mt-2'>course by IBM </p></a>
                     </div>
 
                     <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
                         <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1725340619/vedika-website/icons/IBM-circle_kjbspi.png' />
-                        <a href='https://www.credly.com/badges/528bbf6b-cffc-4511-9dd9-10a6d0b4a825?source=linked_in_profile' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-amber-400'>Enterprise Design Thinking Co-Creator<br /><p className='text-sm mt-2'>course by IBM </p></a>
+                        <a href='https://www.credly.com/badges/528bbf6b-cffc-4511-9dd9-10a6d0b4a825?source=linked_in_profile' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-cyan-400'>Enterprise Design Thinking Co-Creator<br /><p className='text-sm mt-2'>course by IBM </p></a>
                         
                     </div>
 
                     <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
                         <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978513/vedika-website/icons/google_f3cpxv.png' />
-                        <a href='https://www.coursera.org/account/accomplishments/certificate/DL2CJ6VC3YAY' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-amber-400'>Fundamentals of UX Design<br /><p className='text-sm mt-2'>course by Google on Coursera </p></a>
+                        <a href='https://www.coursera.org/account/accomplishments/certificate/DL2CJ6VC3YAY' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-cyan-400'>Fundamentals of UX Design<br /><p className='text-sm mt-2'>course by Google on Coursera </p></a>
                     </div>
 
                     <div className='flex flex-col md:flex-row py-2 items-center text-center md:text-left'>
                         <img className="h-32 px-10" src='https://res.cloudinary.com/db3h7h0pa/image/upload/v1718978513/vedika-website/icons/google_f3cpxv.png' />
-                        <a href='https://www.coursera.org/account/accomplishments/certificate/AJ9YYL8AWRPQ' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-amber-400'>Start the UX Design Process: Empathise, Define, and Ideate <p className='text-sm mt-2'>course by Google on Coursera </p></a>
+                        <a href='https://www.coursera.org/account/accomplishments/certificate/AJ9YYL8AWRPQ' target='_blank' className='pt-4 md:pt-0 text-lg md:text-xl font-semibold hover:text-cyan-400'>Start the UX Design Process: Empathise, Define, and Ideate <p className='text-sm mt-2'>course by Google on Coursera </p></a>
                     </div>
                 </div>
             </div>
@@ -319,7 +319,7 @@ const About = () => {
 
         {/* Hobbies */}
         <div className='my-20 md:my-40'>
-            <div className='flex flex-row justify-center w-full'><span className='text-2xl font-semibold font-yeseva mb-5'>Things I </span><img className='h-7 mt-1' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718974079/vedika-website/icons/heart_d96kbv.svg" /></div>
+            <div className='flex flex-row justify-center w-full'><span className='text-2xl font-semibold font-sans font-bold mb-5'>Things I </span><img className='h-7 mt-1' src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1718974079/vedika-website/icons/heart_d96kbv.svg" /></div>
             <hr />
             <Marquee />
             <hr />
@@ -327,7 +327,7 @@ const About = () => {
 
         {/* Recommendations */}
         <div className='px-6 md:px-28 lg:px-40'>
-            <div className='font-yeseva text-2xl md:text-4xl my-4 md:my-10 text-center'>Recommendations</div>
+            <div className='font-sans font-bold text-2xl md:text-4xl my-4 md:my-10 text-center'>Recommendations</div>
             <ReviewsCarousel reviews={recommendationList} interval={10000} />
         </div>
     </div>
