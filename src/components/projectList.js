@@ -7,17 +7,6 @@ import '../app/globals.css'
 const Projects = [
     {
       "id": 1,
-      "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1730292546/vedika-website/skywatch/skywatch-cov_zwn6qi.jpg",
-      "name":"Skywatch",
-      "catagory":"Design Challenge",
-      "date":"Oct 2024",
-      "url":'/skywatch',
-      "textColor":'#0F1528',
-      "backgroundColor":'#fbfbfb',
-      "timeColor":'#9F9E9C'
-    },
-    {
-      "id": 2,
       "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1719034644/vedika-website/project-covers/bitbucket_phbvrn.png",
       "name":"Atlassian (Bitbucket)",
       "catagory":"Product Design",
@@ -28,7 +17,7 @@ const Projects = [
       "timeColor":'#9F9E9C'
     },
     {
-      "id": 3,
+      "id": 2,
       "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1721719211/vedika-website/project-covers/Ripple-cover_wkqvc4.png",
       "name":"Ripple",
       "catagory":"UI-UX Design",
@@ -38,7 +27,7 @@ const Projects = [
       "backgroundColor":'#FFFAF1',
       "timeColor":'#FD7F7F'
     },{
-      "id": 4,
+      "id": 3,
       "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1721803944/vedika-website/project-covers/jnec_cover_vv4lb4.png",
       "name":"JNEC",
       "catagory":"Website Design and Development",
@@ -62,7 +51,7 @@ const Projects = [
      // "timeColor":'#FF640D'
     //},
     {
-      "id": 5,
+      "id": 4,
       "img": "https://res.cloudinary.com/db3h7h0pa/image/upload/v1721804303/vedika-website/project-covers/plato_hrrfxj.png",
       "name":"Plato",
       "catagory":"Design Method Project",
